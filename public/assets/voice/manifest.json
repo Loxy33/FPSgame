@@ -1,0 +1,1214 @@
+{
+  "c6e1ac8f": {
+    "file": "v_c6e1ac8f.mp3",
+    "who": "洞四·百灵",
+    "text": "漂亮！这是雇佣兵的卫星加密频段表，我已同步传回远洋编队指挥室！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "93148b20": {
+    "file": "v_93148b20.mp3",
+    "who": "远洋编队指挥室",
+    "text": "授权使用致命武力。首要目标：解救22名大顺船员，确保底舱3号特种集装箱完好。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "693e0854": {
+    "file": "v_693e0854.mp3",
+    "who": "海雕-1",
+    "text": "距离目标船尾300米，风速22节，悬停窗口只有15秒！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "f6529866": {
+    "file": "v_f6529866.mp3",
+    "who": "洞幺·老高",
+    "text": "检查气密和消音器！百灵，甲板热源？",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "139f2ad7": {
+    "file": "v_139f2ad7.mp3",
+    "who": "洞四·百灵",
+    "text": "小型侦察机被风吹偏了，只扫到船尾有两个落单哨兵。但奇怪……整艘船的无线电静默得像鬼船，不像海盗的作风。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "9ad47be6": {
+    "file": "v_9ad47be6.mp3",
+    "who": "洞幺·老高",
+    "text": "管他什么路数，按预案打！挂索！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "9b7bb971": {
+    "file": "v_9b7bb971.mp3",
+    "who": "洞幺·老高",
+    "text": "洞三，左边那个归你，右边归我。等雷声掩护……三、二、一，打！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "c6e72257": {
+    "file": "v_c6e72257.mp3",
+    "who": "洞二·铁锤",
+    "text": "头儿，不对劲！这帮孙子穿的是全套军规防弹插板和夜视头盔，手里拿的是改装过的西方制式卡宾枪——南海哪有这种装备的海盗？",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "0042b58b": {
+    "file": "v_0042b58b.mp3",
+    "who": "洞幺·老高",
+    "text": "提高警惕，可能是境外雇佣兵！右舷有检修梯能上集装箱顶架枪，左舷货道可低位包抄，向白色上层建筑水密门推进！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "8a9fae59": {
+    "file": "v_8a9fae59.mp3",
+    "who": "洞幺·老高",
+    "text": "收起夜视仪，开枪灯！1F 两侧宿舍躲着受惊的船员，看清目标再开火，清完上 2F 餐厅！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "185f1ac3": {
+    "file": "v_185f1ac3.mp3",
+    "who": "洞幺·老高",
+    "text": "透过圆窗看到4名劫匪！我和百灵在北侧门同步切入，铁锤爆破主门，洞三投掷震撼弹——注意别伤着自己人！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "c255ebee": {
+    "file": "v_c255ebee.mp3",
+    "who": "老船长",
+    "text": "解放军同志……别管我们！他们不是冲船来的！一上船就把大副杀了，逼我交出底舱3号特种货柜的钥匙，他们带了重型铝热剂和炸药下去了！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "c3b89695": {
+    "file": "v_c3b89695.mp3",
+    "who": "洞四·百灵",
+    "text": "洞幺！底舱监测到高强度数据传输信号，他们在往卫星上传货柜里芯片的底层数据，传完就要毁尸灭迹！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "822d896d": {
+    "file": "v_822d896d.mp3",
+    "who": "洞幺·老高",
+    "text": "全员摘掉消音器！下回 1F 前端检修竖井速降进底舱！（想拿支线情报可顺路上 3F 舰桥拿加密频段表）",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "0763cc26": {
+    "file": "v_0763cc26.mp3",
+    "who": "洞幺·老高",
+    "text": "十一点钟二层平台有狙击激光！全员利用钢架栏杆压制，往下层货舱包抄推进！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "f6704280": {
+    "file": "v_f6704280.mp3",
+    "who": "洞幺·老高",
+    "text": "放下武器！双手抱头！……不好，他手里有引爆器！洞三开火！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e2df5545": {
+    "file": "v_e2df5545.mp3",
+    "who": "洞四·百灵",
+    "text": "服务器全毁了，但我在他们没来得及拔掉的加密笔记本上截获了一个商标残影——“Epsilon（厄普西隆）全球电讯”……这不是给我们做卫星中继的跨国承包商吗？他们为什么要毁掉自己公司经手的零件？",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "81b434e0": {
+    "file": "v_81b434e0.mp3",
+    "who": "洞二·铁锤",
+    "text": "更邪门儿的在这儿！西方雇佣兵的装备，但船壳龙骨上贴的塑性炸药和军用雷管，全是北方联邦特种部队现役的批号！这帮杂碎想把船炸沉在南海，栽赃给北边！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "2364e6a3": {
+    "file": "v_2364e6a3.mp3",
+    "who": "海雕-1",
+    "text": "利刃小队！货轮右倾进水速度太快，最多撑三分钟！大部队气垫船已经在接应船员了，你们立刻沿前甲板冲向船头停机坪！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "3f44fa4c": {
+    "file": "v_3f44fa4c.mp3",
+    "who": "洞幺·老高",
+    "text": "百灵带上那台笔记本！全员冲上绿色应急梯，走左舷高位躲开滑落的集装箱！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "f719f1dd": {
+    "file": "v_f719f1dd.mp3",
+    "who": "洞幺·老高",
+    "text": "洞三！抓紧我的手！跳上来！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e18743b8": {
+    "file": "v_e18743b8.mp3",
+    "who": "洞幺·老高",
+    "text": "抓紧了！……装备是大西洋那边的，炸药是北方联邦的，目标是咱们运往西北基地的芯片……有人在南海底下憋着坏水啊。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "8419e440": {
+    "file": "v_8419e440.mp3",
+    "who": "西北通讯所 · 云茹",
+    "text": "利刃洞幺，我是西北通讯所的云茹。你们抢回来的笔记本残存日志我看过了……情况比你们想的严重得多。那批雇佣兵的资金流向中亚，你们恐怕没时间休整了。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "97e8b00c": {
+    "file": "v_97e8b00c.mp3",
+    "who": "洞幺·老高",
+    "text": "干得漂亮洞三，冷静克制，没有误伤船员！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "54d1c4b2": {
+    "file": "v_54d1c4b2.mp3",
+    "who": "洞四·百灵",
+    "text": "目标警觉！已开启便携干扰器，洞三你有三秒补枪时间！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "2abe30a2": {
+    "file": "v_2abe30a2.mp3",
+    "who": "洞幺·老高",
+    "text": "洞三注意掩护！我正在给你压制正面火力，找掩体侧翼点射！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "5776dca1": {
+    "file": "v_5776dca1.mp3",
+    "who": "洞幺·老高",
+    "text": "跟紧队形！交替掩护推进，把这帮雇佣兵全按在甲板上！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "31fee195": {
+    "file": "v_31fee195.mp3",
+    "who": "洞幺·老高",
+    "text": "发现露头目标就打，我和铁锤给你架住交叉火力！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "215a1683": {
+    "file": "v_215a1683.mp3",
+    "who": "洞幺·老高",
+    "text": "压低枪口，保持无线电静默。右舷有检修梯可以占领高架，我带铁锤走中路替你架枪。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "98ff751e": {
+    "file": "v_98ff751e.mp3",
+    "who": "洞幺·老高",
+    "text": "发现异常先别急着盲射，利用雷声和消音器逐个清掉巡逻哨，咱们直插水密门。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "5c3917e0": {
+    "file": "v_5c3917e0.mp3",
+    "who": "洞幺·老高",
+    "text": "队形收拢，洞三你在前锋，我和百灵随时准备补枪掩护。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "189644fd": {
+    "file": "v_189644fd.mp3",
+    "who": "洞幺·老高",
+    "text": "上层建筑走廊窄，用战术枪灯看清敌我再扣扳机——绝不能误伤船员。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "523723f3": {
+    "file": "v_523723f3.mp3",
+    "who": "洞幺·老高",
+    "text": "清完 2F 餐厅如果有空可以顺路上 3F 舰桥，看看敌方有没有留下加密通讯记录。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "4261713e": {
+    "file": "v_4261713e.mp3",
+    "who": "洞幺·老高",
+    "text": "小队全员紧跟你行动，进门随时可以呼应交叉火力！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "409b51d7": {
+    "file": "v_409b51d7.mp3",
+    "who": "洞幺·老高",
+    "text": "压住二层狙击手的红点激光！我们三人展开火力压制，你借集装箱掩体强攻 3 号货柜！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e226dd7e": {
+    "file": "v_e226dd7e.mp3",
+    "who": "洞幺·老高",
+    "text": "底舱雇佣兵装备精良，弹药吃紧就去左下角拿那把重型压制步枪！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "06a965c4": {
+    "file": "v_06a965c4.mp3",
+    "who": "洞幺·老高",
+    "text": "船体右倾越来越大，别回头恋战！紧贴左舷高位全速冲向船头停机坪！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "d36007ea": {
+    "file": "v_d36007ea.mp3",
+    "who": "洞幺·老高",
+    "text": ") npc.action = ",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "73012820": {
+    "file": "v_73012820.mp3",
+    "who": "洞二·铁锤",
+    "text": "弹药快见底了吧？接着！把我的备用弹匣和两颗震撼弹分你，咱们接着干他们！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e1abecb0": {
+    "file": "v_e1abecb0.mp3",
+    "who": "洞二·铁锤",
+    "text": "火力压制包在我身上！洞三你放心侧翼包抄，哪个敢露头我直接给他点名！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "bb3bd811": {
+    "file": "v_bb3bd811.mp3",
+    "who": "洞二·铁锤",
+    "text": "这帮雇佣兵护甲挺厚，我用连发按住他们脑袋，你找准机会爆头！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "123a9311": {
+    "file": "v_123a9311.mp3",
+    "who": "洞二·铁锤",
+    "text": "液压钳就挂在我腰上，清完甲板巡逻到了水密门喊我一声，三秒给它剪开。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "87376eea": {
+    "file": "v_87376eea.mp3",
+    "who": "洞二·铁锤",
+    "text": "这帮家伙穿得跟正规军一样，待会儿真交火你躲掩体后头，重火力交给我顶着！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "8e6f4c3a": {
+    "file": "v_8e6f4c3a.mp3",
+    "who": "洞二·铁锤",
+    "text": "室内 CQB 最怕转角阴人，进门前甩颗震撼弹最省事，我就在你身侧补枪。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "df3abedf": {
+    "file": "v_df3abedf.mp3",
+    "who": "洞二·铁锤",
+    "text": "船员都吓坏了，咱们打准一点，把这帮杂碎全收拾干净！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e2b458aa": {
+    "file": "v_e2b458aa.mp3",
+    "who": "洞二·铁锤",
+    "text": "底舱这阵仗明显是奔着灭口来的，跟紧点洞三，咱们杀出一条血路！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "31cc1de3": {
+    "file": "v_31cc1de3.mp3",
+    "who": "洞四·百灵",
+    "text": "我的便携电子干扰器全程待命，万一潜行暴露能帮你争取三秒缓冲窗口，别慌！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "866f00a4": {
+    "file": "v_866f00a4.mp3",
+    "who": "洞四·百灵",
+    "text": "我刚刚截获到货轮内部的异常加密跳频，3F 舰桥终端和底舱货柜一定藏着幕后线索。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "38f7efb0": {
+    "file": "v_38f7efb0.mp3",
+    "who": "洞四·百灵",
+    "text": "放心往前推进，洞三，你的背后和侧翼交给我照看！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "801b476b": {
+    "file": "v_801b476b.mp3",
+    "who": "老船长",
+    "text": "（压低声音）解放军同志……快找掩体！餐厅里还有端着步枪的劫匪盯着门口！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "c08a272c": {
+    "file": "v_c08a272c.mp3",
+    "who": "船员",
+    "text": "谢谢解放军同志！外面全是说外语的武装匪徒，我们一直躲在舱里不敢发出一点声音！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "267e92cb": {
+    "file": "v_267e92cb.mp3",
+    "who": "船员",
+    "text": "他们一登船就砸了电台室，还往底舱搬了好几箱军用炸药……你们一定要小心啊！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "ddf6995e": {
+    "file": "v_ddf6995e.mp3",
+    "who": "船员",
+    "text": "放心吧同志，我们就待在安全角落等援军气垫船来，绝不乱跑添乱！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "8d72a3e3": {
+    "file": "v_8d72a3e3.mp3",
+    "who": "海雕-1",
+    "text": "已抵近泰山号船尾上空！暴雨风切变太强，所有人员抓紧索降绳——祝你们好运，利刃一分队！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "db6eabd9": {
+    "file": "v_db6eabd9.mp3",
+    "who": "洞幺·老高",
+    "text": "全队落地安全！压低声音——前面集装箱区有三股巡逻队，左舷高架还有狙击手。按 [E] 随时和我们沟通战术！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "765d1746": {
+    "file": "v_765d1746.mp3",
+    "who": "洞四·百灵",
+    "text": "我截获了船内监控频道，01 号水密防爆闸被甲板那门防空炮联动锁死了。先拆了它，咱们再杀进上层建筑！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "e12ecbc2": {
+    "file": "v_e12ecbc2.mp3",
+    "who": "洞二·铁锤",
+    "text": "痛快！甲板上的杂碎全清光了！队长，快去给那门防空炮贴上 C4，我掩护你！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "7489a17e": {
+    "file": "v_7489a17e.mp3",
+    "who": "洞幺·老高",
+    "text": "C4 已就位，三秒后起爆——全体往集装箱后面卧倒！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "be193843": {
+    "file": "v_be193843.mp3",
+    "who": "洞四·百灵",
+    "text": "漂亮！01 号水密防爆闸的液压联锁断开了，主闸门和右舷侧门已经滑开！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "518dd97b": {
+    "file": "v_518dd97b.mp3",
+    "who": "洞幺·老高",
+    "text": "进舱了！走廊灯光很暗，小心左手边前段的公共卫生间隔间，左后楼梯通往 B1 地下船舱和冷库，里面关着两名中国船员！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "34c852e4": {
+    "file": "v_34c852e4.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "（全船广播）呵……没想到中国海军陆战队真的敢冒着十二级台风登船。去吧，把他们全埋在船舱铁皮里！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "5a73a30b": {
+    "file": "v_5a73a30b.mp3",
+    "who": "船员",
+    "text": "太好了……是解放军同志来了！他们把老船长和大伙儿全押在二楼大餐厅和后厨里，还架着机枪，求求你们快去救船长！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "109ee3b2": {
+    "file": "v_109ee3b2.mp3",
+    "who": "洞幺·老高",
+    "text": "老乡别怕，待在安全隔舱！全队走东侧宽楼梯上二楼——咱们给餐厅里的雇佣兵来一场双门同步闪光破门！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "366d9bb1": {
+    "file": "v_366d9bb1.mp3",
+    "who": "洞二·铁锤",
+    "text": "我已经卡住后厨侧门了！老高守主门，队长你发令——按 [F] 咱们同时丢闪光弹破门！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "4fefbb1e": {
+    "file": "v_4fefbb1e.mp3",
+    "who": "洞幺·老高",
+    "text": "闪光弹生效——突入！保护人质，干掉餐厅和后厨所有武装分子！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "aea6480c": {
+    "file": "v_aea6480c.mp3",
+    "who": "老船长",
+    "text": "谢谢你们……真是好样的！那帮人不是普通海盗，他们在三楼舰桥改了航向，还往三号主货舱塞了个标着“厄普西隆”的红色危险集装箱！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "47229537": {
+    "file": "v_47229537.mp3",
+    "who": "洞四·百灵",
+    "text": "“厄普西隆”？！队长，必须立刻冲上三楼全景舰桥，调出真实舱单并解锁通往主货舱的 02 号防爆闸！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "d0bd6a4a": {
+    "file": "v_d0bd6a4a.mp3",
+    "who": "洞幺·老高",
+    "text": "舰桥拿下了！队长，快去主舵台按 [F] 导出舱单，顺便把 02 号防爆闸打开！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "5539f8c8": {
+    "file": "v_5539f8c8.mp3",
+    "who": "洞四·百灵",
+    "text": "数据到手了！那个红色厄普西隆箱里装着军用级干扰载荷，就藏在前方三号主货舱底层！02 号防爆闸和地下船舱直通门已全部打开！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "3814560f": {
+    "file": "v_3814560f.mp3",
+    "who": "洞二·铁锤",
+    "text": "好家伙，这十四米深的主货舱简直就是立体火力网！上面栈桥有狙击手，先清高处，别闷头往下冲！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "f620e5ff": {
+    "file": "v_f620e5ff.mp3",
+    "who": "洞四·百灵",
+    "text": "货舱清空！队长，快去那个亮红灯的厄普西隆集装箱按 [F] 接入我的破解仪，我需要十八秒完成解密！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "8f265ea8": {
+    "file": "v_8f265ea8.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "（无线电怒吼）你们敢动厄普西隆？！所有预备队压进三号货舱——格杀勿论，绝不能让他们带走数据！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "5c223278": {
+    "file": "v_5c223278.mp3",
+    "who": "洞四·百灵",
+    "text": "解密完成！证据和密钥全锁进加密盘了！03 号轮机舱防爆闸已开启，向前推进就能穿过轮机舱抵达前甲板！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "d02db15e": {
+    "file": "v_d02db15e.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "既然带不走货，那就连人带船一起沉进南海海底吧！我已经切断主配电并打开了海底进水阀——哈哈哈哈！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "b25d7a5b": {
+    "file": "v_b25d7a5b.mp3",
+    "who": "洞幺·老高",
+    "text": "全舱断电进水了！按 [N] 开启夜视仪！必须同时去右舷二层栈桥重启备用配电箱，并拧死左舷红色进水阀门，否则 04 号逃生闸打不开！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "cba82e7f": {
+    "file": "v_cba82e7f.mp3",
+    "who": "洞四·百灵",
+    "text": "太棒了，应急配电合闸成功！轮机舱照明恢复，抽水泵已经开始运转！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "6d650ca4": {
+    "file": "v_6d650ca4.mp3",
+    "who": "洞二·铁锤",
+    "text": "好样的！海底进水阀彻底封死了，海水退下去了，老子可不想在这儿喂鲨鱼！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "0eacb725": {
+    "file": "v_0eacb725.mp3",
+    "who": "洞幺·老高",
+    "text": "泰山号稳住了！04 号抗沉逃生闸已开启，顺着正前方那座宽楼梯冲回露天前甲板！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "d8285844": {
+    "file": "v_d8285844.mp3",
+    "who": "海雕-1",
+    "text": "利刃一分队！前甲板双龙门吊下面架着四联装防空导弹，雷达已经锁死我的航线了！不拆掉它我没法降落接你们！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "7c951d63": {
+    "file": "v_7c951d63.mp3",
+    "who": "洞二·铁锤",
+    "text": "交给我们！左右龙门吊栈桥上都有狙击手，我压正面火力，队长你找机会摸上去把导弹炸上天！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "eff8b790": {
+    "file": "v_eff8b790.mp3",
+    "who": "洞幺·老高",
+    "text": "前甲板敌军肃清！队长，快去那台防空导弹车按 [F] 安放高爆 C4！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "596f9ef6": {
+    "file": "v_596f9ef6.mp3",
+    "who": "洞幺·老高",
+    "text": "C4 启动，全体退到集装箱掩体后面——准备听响！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "69478d71": {
+    "file": "v_69478d71.mp3",
+    "who": "海雕-1",
+    "text": "防空雷达信号消失了！漂亮！我正从右舷切入，全速飞往船艏撤离停机坪，三分钟内落地！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "7a084378": {
+    "file": "v_7a084378.mp3",
+    "who": "洞幺·老高",
+    "text": "停机坪占领！所有人依托沙袋和锚机建立环形防线——毒蛇的残部正从前甲板疯狂反扑！顶住两波，绝不能退半步！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "7580d13b": {
+    "file": "v_7580d13b.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "（嘶吼）不……不可能！我筹备了三年的行动绝不能毁在这里！放铁锚克洛诺斯出去——把他们连同停机坪一起撕成碎片！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "ffaf1a49": {
+    "file": "v_ffaf1a49.mp3",
+    "who": "洞幺·老高",
+    "text": "小心！克洛诺斯外骨骼核心过载了！全员立刻散开躲避高爆榴弹，集火轰他的头盔和胸口！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "c99b12fd": {
+    "file": "v_c99b12fd.mp3",
+    "who": "海雕-1",
+    "text": "海雕-1 已稳稳落在船艏停机坪！风浪越来越大，快跑，别回头，全队立刻登机！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "31f25344": {
+    "file": "v_31f25344.mp3",
+    "who": "远洋编队指挥室",
+    "text": "利刃一分队，干得漂亮……全船六名中国船员平安获救，厄普西隆阴谋彻底粉碎。全体官兵以你们为荣，欢迎回家！",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "9b1dc52c": {
+    "file": "v_9b1dc52c.mp3",
+    "who": "洞幺·老高",
+    "text": "火力别停！我盯住左侧掩体，你找角度点射，咱们稳步往前压！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "46f1a75a": {
+    "file": "v_46f1a75a.mp3",
+    "who": "洞幺·老高",
+    "text": "这帮雇佣兵装备精良，但阵型太散——配合我的压制火力逐个吃掉他们！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "ffccc0ff": {
+    "file": "v_ffccc0ff.mp3",
+    "who": "洞幺·老高",
+    "text": "甲板风浪大，钢板特别滑。趁着暴雨声掩护，咱们沿着左舷集装箱高架或者右舷管廊摸过去！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "1f46a389": {
+    "file": "v_1f46a389.mp3",
+    "who": "洞幺·老高",
+    "text": "前面那门防空炮把 01 号防爆闸锁死了，清完巡逻队就用 C4 送它上天。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e1402f53": {
+    "file": "v_e1402f53.mp3",
+    "who": "洞幺·老高",
+    "text": "船舱隔间又多又窄，一楼卫生间和 B1 地下船舱冷库都仔细搜一遍，绝不漏掉一名兄弟！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "172bc82c": {
+    "file": "v_172bc82c.mp3",
+    "who": "洞幺·老高",
+    "text": "待会儿二楼大餐厅同步破门，闪光弹一响就果断清场，千万留神别误伤老船长！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "41d72e9e": {
+    "file": "v_41d72e9e.mp3",
+    "who": "洞幺·老高",
+    "text": "轮机舱两台十八米柴油机后面全是盲区，稳住呼吸——重启配电箱再拧死进水阀，泰山号沉不了！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "096154bf": {
+    "file": "v_096154bf.mp3",
+    "who": "洞幺·老高",
+    "text": "一路打到这儿全队一个没掉队！坚持住，马上就能带着船员和情报回家了！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "7910346c": {
+    "file": "v_7910346c.mp3",
+    "who": "洞二·铁锤",
+    "text": "哈哈，来得正好！我把他们全压在掩体后面不敢露头，队长你快收人头！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "bdb086f7": {
+    "file": "v_bdb086f7.mp3",
+    "who": "洞二·铁锤",
+    "text": "别躲了杂碎们，吃铁锤爷爷一梭子！队长小心右翼绕后！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "690127a7": {
+    "file": "v_690127a7.mp3",
+    "who": "洞二·铁锤",
+    "text": "刚才路过二楼大餐厅闻到炖牛腩味儿都饿了！等打完这仗，回基地我请大伙儿吃顿狠的！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "0e030327": {
+    "file": "v_0e030327.mp3",
+    "who": "洞二·铁锤",
+    "text": "那帮混蛋居然在公共卫生间和冷库里藏人，真够阴的，待会儿让我一脚踹开餐厅大门！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "8807b0c9": {
+    "file": "v_8807b0c9.mp3",
+    "who": "洞二·铁锤",
+    "text": "这艘万吨巨轮修得跟钢铁迷宫似的，不过再厚的铁皮也挡不住咱们利刃一分队！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "f9f8d494": {
+    "file": "v_f9f8d494.mp3",
+    "who": "洞二·铁锤",
+    "text": "龙门吊底下那台防空导弹看着挺唬人，一颗 C4 下去照样变废铁，痛快！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "ec5bd1f5": {
+    "file": "v_ec5bd1f5.mp3",
+    "who": "洞四·百灵",
+    "text": "敌方无线电频率已经全被我监听了，正前方还有活跃目标，我掩护你侧翼！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "d9945a20": {
+    "file": "v_d9945a20.mp3",
+    "who": "洞四·百灵",
+    "text": "舰桥和主货舱的数据链我已经接通了，厄普西隆货柜里的加密固件非常关键，一定要完整带回去！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "950c005d": {
+    "file": "v_950c005d.mp3",
+    "who": "洞四·百灵",
+    "text": "轮机舱水位传感器在报警，不过只要拉起右舷应急开关、关死左舷红阀门，排涝泵三秒就能压住水位！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "30a0de2f": {
+    "file": "v_30a0de2f.mp3",
+    "who": "洞四·百灵",
+    "text": "海雕-1 一直在外海盘旋待命，全船通信畅通。队长你放心推进，后勤与破译交给我！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "6fec9195": {
+    "file": "v_6fec9195.mp3",
+    "who": "老船长",
+    "text": "真的太感谢你们了……我们泰山号跑了二十年远洋，从没见过这么狠的武装分子。你们一定要活着回来啊！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "9896c373": {
+    "file": "v_9896c373.mp3",
+    "who": "老船长",
+    "text": "三楼舰桥的主舵台里锁着完整航运清单，你们把厄普西隆的证据拿走，别让这帮恶徒害了更多人！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "ed1530f2": {
+    "file": "v_ed1530f2.mp3",
+    "who": "船员",
+    "text": "解放军同志，真是救命大恩！我们就在这儿听您指挥，绝不乱跑，您千万注意安全！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "5e95d65b": {
+    "file": "v_5e95d65b.mp3",
+    "who": "船员",
+    "text": "刚才在 B1 地下船舱冷库冻得直哆嗦，看见你们冲进来的那一刻，我悬着的心终于落地了！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "aa5f7a42": {
+    "file": "v_aa5f7a42.mp3",
+    "who": "海雕-1",
+    "text": "利刃小队已落地！防空雷达扫过来了，我必须立刻拉升撤出峡谷，等你们摧毁高轨天线再回来接应！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "8c2a4feb": {
+    "file": "v_8c2a4feb.mp3",
+    "who": "西北通讯所 · 云茹",
+    "text": "老高，听到吗？泰山号抢回来的芯片密钥，全部汇进了这座假借采油厂伪装的厄普西隆地下中继站……你们只有一次机会，一定要活着回来！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "2d7ad39b": {
+    "file": "v_2d7ad39b.mp3",
+    "who": "洞幺·老高",
+    "text": "放心吧云茹，利刃从不掉链子！兄弟们听着——西边岩台可以架狙，东边暗渠能绕后，先拔掉前方 01 号检查站！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "7fd857db": {
+    "file": "v_7fd857db.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "呵……还真让你们顺着网线摸到中亚来了？可惜啊，进了喀拉干达油田，你们连一块全尸都留不下！全员开火，碾碎他们！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "f194e159": {
+    "file": "v_f194e159.mp3",
+    "who": "洞二·铁锤",
+    "text": "少他妈在电台里放狠话！洞三，东边二楼哨塔上有狙击手，西边沙袋坑里架着干扰塔，咱们端了他的老窝！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "062d7bf4": {
+    "file": "v_062d7bf4.mp3",
+    "who": "洞四·百灵",
+    "text": "干扰塔一炸，我立马扫到了储罐区控制信号！02 号防爆门已经被我远程撬开，全队切入储油罐阵！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "ec4c707b": {
+    "file": "v_ec4c707b.mp3",
+    "who": "洞幺·老高",
+    "text": "好大的储油罐阵！楼上五米高的钢铁连廊四通八达，既能抢占制高点，也要提防头顶的黑枪！先关掉两处高压油阀！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "c8f649d8": {
+    "file": "v_c8f649d8.mp3",
+    "who": "洞二·铁锤",
+    "text": "漂亮！油压全泄了，精炼厂地面大门和东边高架连廊全解锁了！挑一条痛快的路杀进去！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "c963e167": {
+    "file": "v_c963e167.mp3",
+    "who": "洞幺·老高",
+    "text": "抬头看！九米高架上有狙击手，西边二楼玻璃房就是炼油厂中控室！占领中控室，把通往地下掩体的防爆大门打开！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "85b958b4": {
+    "file": "v_85b958b4.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "他们打开了地堡闸门！绝不能让他们碰核心服务器——增援小队立刻堵住斜坡，格杀勿论！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "0d5bff20": {
+    "file": "v_0d5bff20.mp3",
+    "who": "洞四·百灵",
+    "text": "地下掩体大门已经升起来了，但门口冲出一波拦截小队！打穿他们，顺着东侧大斜坡下地堡！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "7de2b800": {
+    "file": "v_7de2b800.mp3",
+    "who": "洞四·百灵",
+    "text": "我的天……整整四排军用超算机柜！泰山号那批芯片的底层校验码全在正中央的红光核心柱里！帮我清开一条路！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "cf371b4c": {
+    "file": "v_cf371b4c.mp3",
+    "who": "洞四·百灵",
+    "text": "解密程序已启动，需要四十五秒！他们肯定会从北侧冷却大厅和二层回廊疯狂反扑，老高、铁锤、洞三，拜托你们守住！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "4f30a224": {
+    "file": "v_4f30a224.mp3",
+    "who": "洞二·铁锤",
+    "text": "第二波重装混蛋冲进来了！二层回廊也有人探头，全给我压住！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "6ca7d8bc": {
+    "file": "v_6ca7d8bc.mp3",
+    "who": "西北通讯所 · 云茹",
+    "text": "数据收到了！老高，百灵……你们立了大功！里面不仅有厄普西隆高层洗钱链路，还有他们正在启动高轨卫星反制指令的铁证！快上悬崖炸掉那座巨型中继天线！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "a8987851": {
+    "file": "v_a8987851.mp3",
+    "who": "洞幺·老高",
+    "text": "终于重见天日了！看前头那座转着的巨型卫星大锅——冲上雷达楼顶安放炸药，彻底掐断厄普西隆的卫星指令！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "9d74519d": {
+    "file": "v_9d74519d.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "不……不可能！我的中继站！全部预备队给我压上悬崖，谁也别想活着坐上那架直升机！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "fec3abfb": {
+    "file": "v_fec3abfb.mp3",
+    "who": "海雕-1",
+    "text": "看到火光了！防空干扰已消失，海雕一号全速低空切入，五十五秒后降落悬崖停机坪，兄弟们顶住！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "25668414": {
+    "file": "v_25668414.mp3",
+    "who": "洞二·铁锤",
+    "text": "毒蛇的沙漠外骨骼进入狂暴过载了！他双肩导弹巢亮红灯了，快躲掩体反杀他！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "d5bc9d6f": {
+    "file": "v_d5bc9d6f.mp3",
+    "who": "雇佣兵指挥官·毒蛇",
+    "text": "一群阴魂不散的利刃杂兵！就让我亲自穿戴外骨骼把你们全部埋葬在戈壁悬崖！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "fb7e6dd1": {
+    "file": "v_fb7e6dd1.mp3",
+    "who": "海雕-1",
+    "text": "已稳稳落在停机坪！利刃全员快登机，咱们马上起飞！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "95013870": {
+    "file": "v_95013870.mp3",
+    "who": "洞二·铁锤",
+    "text": "哈哈哈哈！毒蛇那孙子气得电台都摔了吧！看下面整个油田浓烟滚滚的，这一仗打得真痛快！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "9355b679": {
+    "file": "v_9355b679.mp3",
+    "who": "洞幺·老高",
+    "text": "别大意，这只是厄普西隆在海外的一颗棋子。云茹，拿回来的加密账本够不够掀翻背后那帮人？",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "7148e8ad": {
+    "file": "v_7148e8ad.mp3",
+    "who": "西北通讯所 · 云茹",
+    "text": "足够了……而且比我们预想的更触目惊心。归队休整吧，利刃一分队，祖国以你们为荣。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "65ec1b7a": {
+    "file": "v_65ec1b7a.mp3",
+    "who": "洞幺·老高",
+    "text": "洞三，找掩体稳住呼吸！我和铁锤给你按住正面火力，抓紧侧翼点射！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "3bf4123d": {
+    "file": "v_3bf4123d.mp3",
+    "who": "洞幺·老高",
+    "text": "别硬顶机枪火线！跟着我的手势交替掩护推进！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e5d30ff3": {
+    "file": "v_e5d30ff3.mp3",
+    "who": "洞幺·老高",
+    "text": "西边那道岩台视野极佳，适合先敲掉哨卡狙击手；东边干涸暗渠能摸到他们屁股后头！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "ac687545": {
+    "file": "v_ac687545.mp3",
+    "who": "洞幺·老高",
+    "text": "咱们这一趟深入中亚腹地没有后援，每一步都得稳准狠，跟紧了！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "dacdce84": {
+    "file": "v_dacdce84.mp3",
+    "who": "洞幺·老高",
+    "text": " || this.stage === ",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "1d9ba9f4": {
+    "file": "v_1d9ba9f4.mp3",
+    "who": "洞幺·老高",
+    "text": "油田里到处是输油管道和油罐车，利用地形高低差打交叉火力，别站在空地上挨枪子！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "cbb319b8": {
+    "file": "v_cbb319b8.mp3",
+    "who": "洞幺·老高",
+    "text": "记住，先清掉高处狙击手和干扰源，我们全队步步紧跟掩护你！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "bf4615b2": {
+    "file": "v_bf4615b2.mp3",
+    "who": "洞幺·老高",
+    "text": "越靠近厄普西隆的核心机房，敌人反扑越疯！进掩体前先补满弹匣！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "fd283f53": {
+    "file": "v_fd283f53.mp3",
+    "who": "洞幺·老高",
+    "text": "百灵解密需要时间，无论发生什么，咱们兄弟三个拼死也得守住这道防线！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "d02d1985": {
+    "file": "v_d02d1985.mp3",
+    "who": "洞幺·老高",
+    "text": "悬崖上面视野全开！炸掉那座巨型卫星天线，咱们坐海雕一号回家！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "e6f31afb": {
+    "file": "v_e6f31afb.mp3",
+    "who": "洞二·铁锤",
+    "text": "哟，弹药告急了吧？接着！我背囊里还富余两个满匣和两颗雷，拿去轰他丫的！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "1e06dd09": {
+    "file": "v_1e06dd09.mp3",
+    "who": "洞四·百灵",
+    "text": "云茹姐的加密链路已经接通，只要咱们把地下核心库的数据拷出来，厄普西隆的阴谋就彻底捂不住了！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "5cdad989": {
+    "file": "v_5cdad989.mp3",
+    "who": "洞四·百灵",
+    "text": "放心交火吧洞三，我会盯着侧翼和二层高台，绝不让敌人摸到你背后！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "f8d2b154": {
+    "file": "v_f8d2b154.mp3",
+    "who": "韩军士长",
+    "text": "醒了？动作快点。开赴哈迪尔之前，这是你最后一次考核。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "a6a48d97": {
+    "file": "v_a6a48d97.mp3",
+    "who": "韩军士长",
+    "text": "先活动活动——[W][A][S][D] 移动，鼠标观察四周。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "00b86a2d": {
+    "file": "v_00b86a2d.mp3",
+    "who": "韩军士长",
+    "text": "行，腿脚还利索。靶场在南边，跟着标记走——按住 [Shift] 冲刺。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "bfb6ad78": {
+    "file": "v_bfb6ad78.mp3",
+    "who": "刘上士",
+    "text": "4 号靶道，就是你。先练腰射——前面 8 米三个靶，不用开镜，直接打。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "424f891e": {
+    "file": "v_424f891e.mp3",
+    "who": "刘上士",
+    "text": "近的靠手感，远的靠瞄准。按住 [鼠标右键] 开镜，靶子一个一个起来。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "9ceedc80": {
+    "file": "v_9ceedc80.mp3",
+    "who": "刘上士",
+    "text": "别等弹匣打空——有空档就按 [R] 换弹。现在换一个。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "c06ff28c": {
+    "file": "v_c06ff28c.mp3",
+    "who": "刘上士",
+    "text": "按 [2] 换 MK13 狙击步枪。七十到一百米，三块钢板。开镜，屏住气，一发一块。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "33d4c80d": {
+    "file": "v_33d4c80d.mp3",
+    "who": "刘上士",
+    "text": "叮——听见没？这就是命中的声音。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "f1c32610": {
+    "file": "v_f1c32610.mp3",
+    "who": "刘上士",
+    "text": "主武器出故障的时候，别修，换枪。按 [3] 切手枪，快速击倒近处四个靶。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "f6ae64c4": {
+    "file": "v_f6ae64c4.mp3",
+    "who": "刘上士",
+    "text": "打空了就去补给箱补。走过去按 [F]。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "2ea350e0": {
+    "file": "v_2ea350e0.mp3",
+    "who": "刘上士",
+    "text": "射击课目合格。去西边投弹场，王中士在那等你。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "d8c8445f": {
+    "file": "v_d8c8445f.mp3",
+    "who": "王中士",
+    "text": "看见坑里那三个靶了吗？按 [G] 投弹。抬高一点，让它飞过去——一颗手雷能放倒一片。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "ae154fd6": {
+    "file": "v_ae154fd6.mp3",
+    "who": "王中士",
+    "text": "漂亮。下一项：障碍场，往北走到起点线。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "d8526ec3": {
+    "file": "v_d8526ec3.mp3",
+    "who": "李教官",
+    "text": "冲刺、跳跃、钻杆、翻墙，全程计时。过了起点线就开始！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "7d59118a": {
+    "file": "v_7d59118a.mp3",
+    "who": "李教官",
+    "text": "前面那个假人，近身了就别开枪——按 [V] 给它来一下。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "80dcb234": {
+    "file": "v_80dcb234.mp3",
+    "who": "李教官",
+    "text": "有那么点意思了。最后一项，突入屋。赵教官在门口等你。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "2a7f7664": {
+    "file": "v_2a7f7664.mp3",
+    "who": "赵教官",
+    "text": "规矩很简单：红色持枪的是敌人，蓝色举手的是平民。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "06a9d875": {
+    "file": "v_06a9d875.mp3",
+    "who": "赵教官",
+    "text": "漏一个敌人罚 5 秒，打错一个平民罚 10 秒。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "3caf22a8": {
+    "file": "v_3caf22a8.mp3",
+    "who": "赵教官",
+    "text": "再来一次？靶子已经复位了。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "491b2c1d": {
+    "file": "v_491b2c1d.mp3",
+    "who": "赵教官",
+    "text": "准备好了就进门。计时从你跨过门槛开始。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "2d27b98d": {
+    "file": "v_2d27b98d.mp3",
+    "who": "孙班长",
+    "text": "平民！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "63d3bf80": {
+    "file": "v_63d3bf80.mp3",
+    "who": "韩军士长",
+    "text": "动作利落点，铁砧营地不养闲人。按指示完成每一项科目，上战场多一分活命本钱。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "8e4ded36": {
+    "file": "v_8e4ded36.mp3",
+    "who": "刘上士",
+    "text": "瞄准射击讲究稳住呼吸，点射控枪比一梭子胡扫准得多。右键举枪对准靶心！",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "3b98d620": {
+    "file": "v_3b98d620.mp3",
+    "who": "刘上士",
+    "text": "后坐力往上跳时顺手往下压一点鼠标，三发短点射最适合中距离交火。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "1ae0e833": {
+    "file": "v_1ae0e833.mp3",
+    "who": "刘上士",
+    "text": "4 号靶道随时为你留着，弹药管够，练出肌肉记忆再往下一关走。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "456f1f39": {
+    "file": "v_456f1f39.mp3",
+    "who": "王中士",
+    "text": "手雷拉环后别傻站着，算好抛物线往掩体后头灌！震撼弹和破片雷都是清房利器。",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "14dc0478": {
+    "file": "v_14dc0478.mp3",
+    "who": "赵教官",
+    "text": "突入屋里节奏要快，但枪口必须听脑子指挥：看清手里拿枪的敌靶再扣扳机，绝不许误伤人质！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "98b6020c": {
+    "file": "v_98b6020c.mp3",
+    "who": "赵教官",
+    "text": "进门先切角扫清死角，善用点射和快速换弹。准备好就跨过门槛开始计时！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "9da1f5b9": {
+    "file": "v_9da1f5b9.mp3",
+    "who": "孙班长",
+    "text": "我在上方观察台全程记录你的突入路线和命中率。切角干脆点，别在门口犹犹豫豫。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "b9d419e3": {
+    "file": "v_b9d419e3.mp3",
+    "who": "孙班长",
+    "text": "记住每个房间的死角位置，二楼和转角最容易藏靶。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "74e07917": {
+    "file": "v_74e07917.mp3",
+    "who": "周军医",
+    "text": "新兵，体能和心率都挺稳。战场急救第一准则：先确保火力压制，再进掩体包扎。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "8ea8690e": {
+    "file": "v_8ea8690e.mp3",
+    "who": "周军医",
+    "text": "有擦伤随时来医务帐篷找我，我给你随时检查状态，满血上阵！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "284b9792": {
+    "file": "v_284b9792.mp3",
+    "who": "周军医",
+    "text": "别硬撑，我帮你把擦伤处理好了——生命值已恢复满额，保持警惕！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "5c90923c": {
+    "file": "v_5c90923c.mp3",
+    "who": "王中士",
+    "text": "手雷用完了？接着，再给你补满一袋，投弹注意抛物线和反弹角！",
+    "voice": "zh-CN-YunjianNeural"
+  },
+  "224bff94": {
+    "file": "v_224bff94.mp3",
+    "who": "李教官",
+    "text": "可以啊，新兵，这速度够快的！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "4cdf39ed": {
+    "file": "v_4cdf39ed.mp3",
+    "who": "李教官",
+    "text": "时间还行，稳稳当当的。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "40f5ebcd": {
+    "file": "v_40f5ebcd.mp3",
+    "who": "李教官",
+    "text": "太慢了……到了前线你就是活靶子。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "778407b1": {
+    "file": "v_778407b1.mp3",
+    "who": "赵教官",
+    "text": "……我带过的新兵里，你是最快的一个。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "633c64ba": {
+    "file": "v_633c64ba.mp3",
+    "who": "赵教官",
+    "text": "干净利落。到了哈迪尔也给我这么打。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "89a04084": {
+    "file": "v_89a04084.mp3",
+    "who": "赵教官",
+    "text": "合格。但到了前线，敌人可不会站着等你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "e141d6e7": {
+    "file": "v_e141d6e7.mp3",
+    "who": "赵教官",
+    "text": "勉强过关。路上多琢磨琢磨。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "d57e1beb": {
+    "file": "v_d57e1beb.mp3",
+    "who": "赵教官",
+    "text": "你这样上去就是送死。再来！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "b6b1ffb8": {
+    "file": "v_b6b1ffb8.mp3",
+    "who": "赵教官",
+    "text": "打中了 1 个平民。记住，真到了村子里，那是人命。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "653fcbd9": {
+    "file": "v_653fcbd9.mp3",
+    "who": "赵教官",
+    "text": "打中了 2 个平民。记住，真到了村子里，那是人命。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "f4a98f22": {
+    "file": "v_f4a98f22.mp3",
+    "who": "赵教官",
+    "text": "打中了 3 个平民。记住，真到了村子里，那是人命。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "e38db6b3": {
+    "file": "v_e38db6b3.mp3",
+    "who": "赵教官",
+    "text": "打中了 4 个平民。记住，真到了村子里，那是人命。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "9721669f": {
+    "file": "v_9721669f.mp3",
+    "who": "赵教官",
+    "text": "漏了 1 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "28ed5940": {
+    "file": "v_28ed5940.mp3",
+    "who": "赵教官",
+    "text": "漏了 2 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "8d3faaf1": {
+    "file": "v_8d3faaf1.mp3",
+    "who": "赵教官",
+    "text": "漏了 3 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "54cf4622": {
+    "file": "v_54cf4622.mp3",
+    "who": "赵教官",
+    "text": "漏了 4 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "f8979443": {
+    "file": "v_f8979443.mp3",
+    "who": "赵教官",
+    "text": "漏了 5 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "3e1bc2c4": {
+    "file": "v_3e1bc2c4.mp3",
+    "who": "赵教官",
+    "text": "漏了 6 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "285ae0e5": {
+    "file": "v_285ae0e5.mp3",
+    "who": "赵教官",
+    "text": "漏了 7 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "58610766": {
+    "file": "v_58610766.mp3",
+    "who": "赵教官",
+    "text": "漏了 8 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "5ded71d7": {
+    "file": "v_5ded71d7.mp3",
+    "who": "赵教官",
+    "text": "漏了 9 个敌人——他们会从背后打你。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  }
+}

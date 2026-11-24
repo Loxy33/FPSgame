@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>赤沙行动 角色模型验收</title>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%;font-family:"Microsoft YaHei",sans-serif}
+body{background:#eef0f3;color:#1f2329;display:flex;flex-direction:column}
+header{padding:12px 20px;background:#fff;border-bottom:1px solid #dfe2e6;font-size:15px;font-weight:600}
+header span{font-size:12px;color:#86909c;font-weight:400;margin-left:12px}
+#grid{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#dfe2e6;overflow:auto}
+.cell{background:#fff;display:flex;flex-direction:column;min-height:520px}
+.cell .label{padding:8px 14px;font-size:13px;font-weight:600;border-bottom:1px solid #f0f1f3}
+model-viewer{flex:1;min-height:480px;background:radial-gradient(circle at 50% 35%,#fff,#dfe3e8);--poster-color:transparent}
+</style></head><body>
+<header>《赤沙行动》角色模型验收<span>参考图生 3D · 写实 PBR · A-Pose</span></header>
+<div id="grid">
+    <div class="cell"><div class="label">hero_gao</div><model-viewer src="hero_gao.glb" alt="hero_gao" camera-controls shadow-intensity="1" exposure="1" environment-image="neutral" ar></model-viewer></div>
+    <div class="cell"><div class="label">hero_tiechui</div><model-viewer src="hero_tiechui.glb" alt="hero_tiechui" camera-controls shadow-intensity="1" exposure="1" environment-image="neutral" ar></model-viewer></div>
+</div></body></html>

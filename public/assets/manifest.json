@@ -1,0 +1,657 @@
+{
+  "generated_at": "2026-11-19T15:54:12.401Z",
+  "unit": "meters (1 unit = 1m)",
+  "license": "CC0 (Poly Haven & Public Domain Scans)",
+  "models": {
+    "ph_extinguisher": {
+      "source": "https://polyhaven.com/a/korean_fire_extinguisher_01",
+      "license": "CC0",
+      "bytes": 1615648,
+      "bbox_m": [
+        0.28,
+        0.659,
+        0.367
+      ]
+    },
+    "ph_sconce": {
+      "source": "https://polyhaven.com/a/industrial_caged_sconce",
+      "license": "CC0",
+      "bytes": 3118060,
+      "bbox_m": [
+        0.556,
+        0.382,
+        0.389
+      ]
+    },
+    "ph_caged_light": {
+      "source": "https://polyhaven.com/a/caged_hanging_light",
+      "license": "CC0",
+      "bytes": 3065408,
+      "bbox_m": [
+        1.162,
+        0.75,
+        0.315
+      ]
+    },
+    "ph_circuit_board": {
+      "source": "https://polyhaven.com/a/circuit_board",
+      "license": "CC0",
+      "bytes": 4142884,
+      "bbox_m": [
+        0.404,
+        0.078,
+        0.397
+      ]
+    },
+    "aircon": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1390076
+    },
+    "ammo_box": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 267576
+    },
+    "arch_clocktower": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1296868
+    },
+    "arch_fountain": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 616780
+    },
+    "arch_gas_pump": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 363992
+    },
+    "arch_gas_station": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 681208
+    },
+    "arch_radio_tower": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1332560
+    },
+    "arch_ruin": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 617504
+    },
+    "arch_sat_dish": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 167184
+    },
+    "arch_silo": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 975932
+    },
+    "arch_stall": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 728060
+    },
+    "arch_watchtower": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1618648
+    },
+    "arch_water_tower": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 739080
+    },
+    "arms": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 2499992
+    },
+    "barbed_wire": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 874732
+    },
+    "barrel_a": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 410152
+    },
+    "barrel_b": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 302852
+    },
+    "barricade": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 470124
+    },
+    "bench": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 276280
+    },
+    "binoculars": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 384968
+    },
+    "bldg_adobe": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 662344
+    },
+    "bldg_apt": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1327396
+    },
+    "bldg_chu": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1388556
+    },
+    "bldg_hacienda": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1576276
+    },
+    "bldg_hangar": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 641720
+    },
+    "bldg_shop": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1405232
+    },
+    "bldg_site_office": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 561528
+    },
+    "bldg_villa": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1364620
+    },
+    "bldg_warehouse": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1451708
+    },
+    "boulder_a": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 677384
+    },
+    "boulder_b": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 471628
+    },
+    "boulder_c": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 652068
+    },
+    "bush_a": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 780948
+    },
+    "cardboard_box": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 343380
+    },
+    "cardboard_stack": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 366260
+    },
+    "cement_bag": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 134772
+    },
+    "chainlink": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 923688
+    },
+    "chair": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 157760
+    },
+    "char_breacher": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 4121684
+    },
+    "char_heavy": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 3969252
+    },
+    "char_medic": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 4228336
+    },
+    "char_officer": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 4064248
+    },
+    "char_specops": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 4113824
+    },
+    "cliff_a": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 520832
+    },
+    "clipboard": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 234336
+    },
+    "compressor": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 773060
+    },
+    "container": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 482116
+    },
+    "covered_car": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 638060
+    },
+    "dead_trunk": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 381752
+    },
+    "dumpster": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 475608
+    },
+    "field_radio": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1004572
+    },
+    "flood_lights": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1405812
+    },
+    "fp_ak47": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1958644
+    },
+    "fp_awm": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1355460
+    },
+    "fp_m1911": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1601424
+    },
+    "fp_m4a1": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1497044
+    },
+    "fp_mp5a5": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1913500
+    },
+    "fp_scarl": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1696780
+    },
+    "generator": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 973744
+    },
+    "hanging_lamp": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 298752
+    },
+    "jerrycan": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 538172
+    },
+    "jersey_barrier": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 156260
+    },
+    "medical_box": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 214624
+    },
+    "megaphone": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 373856
+    },
+    "mil_crate": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 626168
+    },
+    "mil_crate_b": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 616924
+    },
+    "notice_board": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 711704
+    },
+    "office_desk": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 370696
+    },
+    "pallet": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 272500
+    },
+    "ph_hydrant": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 1316964
+    },
+    "ph_laptop": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 396708
+    },
+    "ph_manhole": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 439048
+    },
+    "ph_sec_cam": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 225284
+    },
+    "ph_shelves": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 210144
+    },
+    "ph_tool_cart": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 709088
+    },
+    "ph_welder": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 583868
+    },
+    "plastic_bin": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 197116
+    },
+    "plastic_crate": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 660532
+    },
+    "propane_tank": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 323724
+    },
+    "prop_crater": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 459168
+    },
+    "prop_palm": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 721940
+    },
+    "prop_porta_john": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 351616
+    },
+    "prop_scaffolding": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 501056
+    },
+    "railing": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 186540
+    },
+    "road_barrier": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 440296
+    },
+    "road_barrier_b": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 497048
+    },
+    "rocks_a": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 588896
+    },
+    "rock_lo": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 168468
+    },
+    "sandbags": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 277744
+    },
+    "searchlight": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 273320
+    },
+    "security_light": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 253672
+    },
+    "shutter_door": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 298836
+    },
+    "shutter_window": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 295692
+    },
+    "soldier": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 4210608
+    },
+    "stool": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 205260
+    },
+    "street_lamp": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 279940
+    },
+    "street_light": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 319508
+    },
+    "table": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 585748
+    },
+    "toolbox": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 280556
+    },
+    "traffic_cone": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 147520
+    },
+    "trash_bags": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 294372
+    },
+    "trash_can": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 967908
+    },
+    "tree_a": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 629912
+    },
+    "tree_lo": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 198432
+    },
+    "tyre": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 387680
+    },
+    "utility_box": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 326900
+    },
+    "utility_pole": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 704448
+    },
+    "veh_armored": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 569572
+    },
+    "veh_forklift": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 619092
+    },
+    "veh_heli": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 821832
+    },
+    "veh_offroad": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 595784
+    },
+    "veh_pickup": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 648564
+    },
+    "veh_sedan": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 506340
+    },
+    "veh_tanker": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 744512
+    },
+    "veh_truck": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 490984
+    },
+    "wheel_rim": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 188456
+    },
+    "wood_crate_a": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 372916
+    },
+    "wood_crate_b": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 360300
+    },
+    "wpn_boltrifle": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 4693572
+    },
+    "wpn_grenade": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 378652
+    },
+    "wpn_m4a1": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 776524
+    },
+    "wpn_pistol": {
+      "source": "local_cc0_pack",
+      "license": "CC0",
+      "bytes": 2296860
+    }
+  }
+}

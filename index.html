@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>赤沙行动 — OPERATION RED SAND</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Cpath d='M16 4v24M4 16h24' stroke='%23e8b04a' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23e8b04a' stroke-width='2'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="perf-hud" title="按 F3 切换性能监控"></div>
+
+    <!-- sniper scope -->
+    <div id="scope" class="hidden">
+      <div class="scope-lens"></div>
+      <div class="scope-h"></div>
+      <div class="scope-v"></div>
+      <div class="scope-dots"></div>
+    </div>
+
+    <!-- in-game HUD -->
+    <div id="hud" class="hidden">
+      <canvas id="compass" width="720" height="46"></canvas>
+
+      <!-- 3A Top-Center Boss Health, Energy Shield & Skill Telegraph Bar -->
+      <div id="boss-hud" class="hidden">
+        <div class="bh-head">
+          <span class="bh-phase" id="boss-phase">PHASE I</span>
+          <b class="bh-name" id="boss-name">铁锚·克洛诺斯</b>
+          <span class="bh-title" id="boss-title">泰山号船艏重甲处刑者</span>
+          <span class="bh-hp-num" id="boss-hp-num">1850 / 1850</span>
+        </div>
+        <div class="bh-bar">
+          <div class="bh-fill" id="boss-hp-fill"></div>
+          <div class="bh-tick"></div>
+        </div>
+        <div class="bh-shield-bar hidden" id="boss-shield-bar">
+          <div class="bh-shield-fill" id="boss-shield-fill"></div>
+        </div>
+        <div class="bh-skill hidden" id="boss-skill"></div>
+      </div>
+
+      <div id="minimap-wrap">
+        <canvas id="minimap" width="220" height="220"></canvas>
+        <div class="mm-n">N</div>
+      </div>
+
+      <div id="hud-left-stack">
+        <div id="objective">
+          <div class="obj-tag">当前任务</div>
+          <div class="obj-title" id="obj-title">坚守阵地</div>
+          <div class="obj-row"><span id="obj-wave">第 1 波</span><span class="sep"></span><span id="obj-left">敌军 0</span></div>
+          <div class="obj-intel hidden" id="obj-intel"><i>◆</i> 情报档案 <b id="obj-intel-val">0/6</b></div>
+        </div>
+        <!-- Active HQ Tactical Support Strip (stacks cleanly below #objective — ZERO overlap!) -->
+        <div id="hex-strip"></div>
+      </div>
+
+      <div id="scorebox">
+        <div class="score-label">得分</div>
+        <div class="score-val" id="score">0</div>
+      </div>
+
+      <div id="killfeed"></div>
+
+      <div id="crosshair">
+        <i class="ch t"></i><i class="ch b"></i><i class="ch l"></i><i class="ch r"></i><i class="ch-dot"></i>
+      </div>
+      <div id="hitmarker"><i></i><i></i><i></i><i></i></div>
+      <div id="dmg-ring"></div>
+      <div id="popups"></div>
+
+      <div id="announce">
+        <div class="an-line"></div>
+        <div class="an-title" id="an-title"></div>
+        <div class="an-sub" id="an-sub"></div>
+      </div>
+
+      <div id="hint"></div>
+      <div id="interact"><span class="key" id="interact-key">F</span><span id="interact-text">补给弹药</span></div>
+
+      <div id="iff-layer"></div>
+      <div id="wpt"><i class="wpt-icon"></i><span class="wpt-label" id="wpt-label"></span><span class="wpt-dist" id="wpt-dist"></span></div>
+      <div id="timer"><div class="tm-label" id="timer-label">突入计时</div><div class="tm-val" id="timer-val">00:00.0</div></div>
+      <div id="subtitle"><b id="sub-who"></b><span id="sub-text"></span></div>
+      <div id="fade"></div>
+
+      <!-- Half-Life / 3A Tactical Airlock Zone Transition Overlay -->
+      <div id="zone-loader" class="hidden">
+        <div class="zl-card">
+          <div class="zl-kicker">AIRLOCK SECTOR TRANSITION // 气密战区衔接</div>
+          <div class="zl-title" id="zl-title">ZONE C · 内部大型主货舱</div>
+          <div class="zl-sub" id="zl-sub">正在解除气密隔离并同步下一战区光照与路径…</div>
+          <div class="zl-track" id="zl-track">
+            <span data-z="A">ZONE A · 船尾甲板</span><i></i>
+            <span data-z="B">ZONE B · 上层生活区</span><i></i>
+            <span data-z="C">ZONE C · 3号主货舱</span><i></i>
+            <span data-z="D">ZONE D · 船头逃生坪</span>
+          </div>
+          <div class="zl-bar"><div class="zl-fill" id="zl-fill"></div></div>
+          <div class="zl-foot"><span id="zl-status">LOADING SECTOR…</span><b id="zl-pct">0%</b></div>
+        </div>
+      </div>
+
+      <div id="vitals">
+        <div class="vt-row">
+          <svg viewBox="0 0 24 24" class="vt-icon"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z" fill="currentColor" /></svg>
+          <div class="vt-num" id="hp-num">100</div>
+        </div>
+        <div class="vt-bar"><div class="vt-fill" id="hp-fill"></div></div>
+      </div>
+
+      <div id="weapon">
+        <div class="wp-slots" id="wp-slots"></div>
+        <div class="wp-main">
+          <div class="wp-ammo"><span id="ammo-mag">30</span><span class="wp-slash">/</span><span id="ammo-res">180</span></div>
+          <div class="wp-info">
+            <div class="wp-name" id="wp-name">M4A1</div>
+            <div class="wp-mode" id="wp-mode">突击步枪 · 全自动</div>
+          </div>
+        </div>
+        <div class="wp-nades"><span class="key sm">G</span><span id="nades"></span></div>
+      </div>
+    </div>
+
+    <!-- loading -->
+    <div id="loading" class="screen">
+      <div class="ld-inner">
+        <div class="ld-kicker">OPERATION RED SAND // TACTICAL DEPLOYMENT</div>
+        <div class="ld-title">赤沙行动</div>
+        <div class="ld-mission" id="ld-mission">正在初始化战区系统</div>
+        <div class="ld-stages" id="ld-stages">
+          <span data-s="0"><i>01</i>场景构建</span>
+          <span data-s="1"><i>02</i>寻路网格</span>
+          <span data-s="2"><i>03</i>角色骨骼</span>
+          <span data-s="3"><i>04</i>显存纹理</span>
+          <span data-s="4"><i>05</i>着色器预热</span>
+        </div>
+        <div class="ld-bar"><div class="ld-fill" id="ld-fill"></div></div>
+        <div class="ld-meta">
+          <div class="ld-label" id="ld-label">正在初始化…</div>
+          <div class="ld-pct" id="ld-pct">0%</div>
+        </div>
+      </div>
+      <div class="ld-tip" id="ld-tip"></div>
+    </div>
+
+    <!-- main menu (3A Overhauled Command Hub) -->
+    <div id="menu" class="screen hidden">
+      <div class="bars"></div>
+      <div class="mn-left">
+        <div class="mn-kicker">海军陆战队 · 「利刃」特战一分队 // COMMAND HUB</div>
+        <h1 class="mn-title">赤沙行动</h1>
+        <div class="mn-sub">OPERATION RED SAND · TACTICAL EDITION</div>
+        <div class="mn-brief">
+          南海暴雨夜的万吨货轮、中亚荒漠的地下超算油田、黄沙漫天的哈迪尔防线。<br />
+          选择进入「战役模式」体验完整双关剧情与 BOSS 决战，或在「哈迪尔防线」迎战无尽攻势并召唤总部三选一战术支援。
+        </div>
+        <nav class="mn-nav">
+          <button class="btn primary" id="btn-campaign"><span>战役模式</span><em>CAMPAIGN · 3 CHAPTERS</em></button>
+          <button class="btn hex-btn" id="btn-start"><span>哈迪尔防线 · 总部支援</span><em>HADIR · 3-CHOOSE-1 SUPPORT</em></button>
+          <button class="btn" id="btn-archives"><span>档案</span><em>ARCHIVES · 3D DOSSIERS</em></button>
+          <button class="btn" id="btn-gunsmith"><span>枪械改装库</span><em>GUNSMITH</em></button>
+          <button class="btn" id="btn-intel"><span>战地物证</span><em>FORENSIC INTEL</em></button>
+          <button class="btn" id="btn-settings"><span>系统设置</span><em>OPTIONS</em></button>
+          <button class="btn" id="btn-help"><span>操作说明</span><em>CONTROLS</em></button>
+        </nav>
+      </div>
+      <div class="mn-foot">
+        <span>训练评级 <b id="best-grade">—</b></span>
+        <span>哈迪尔最高分 <b id="best-score">0</b></span>
+        <span>最高波次 <b id="best-wave">0</b></span>
+        <span class="mn-ver">BUILD 2.0 · 3A TACTICAL</span>
+      </div>
+    </div>
+
+    <!-- Campaign Mode Hub (Training + Mission 1 + Mission 2) -->
+    <div id="campaign-panel" class="screen overlay hidden">
+      <div class="cp-shell">
+        <header class="gs-top">
+          <div class="gs-brand">
+            <i class="gs-brand-bar"></i>
+            <div>
+              <div class="gs-brand-kicker">STORY CAMPAIGN // 战略战役指挥中心</div>
+              <div class="gs-brand-title"><b>战役模式</b><span>训练考核 + 第一关深海利刃 + 第二关戈壁炼狱（含终局 BOSS 战）</span></div>
+            </div>
+          </div>
+          <div class="gs-top-actions">
+            <button class="gs-act-btn primary" id="btn-campaign-back">返回主菜单 <em>ESC</em></button>
+          </div>
+        </header>
+
+        <div class="cp-grid">
+          <article class="cp-card">
+            <div class="cp-badge">PROLOGUE · 序章</div>
+            <div class="cp-chapter">训练关 · 铁砧营地</div>
+            <div class="cp-en">CAMP ANVIL · BOOT CAMP</div>
+            <p class="cp-desc">联合特遣队前进考核营地。完整体验实弹步枪靶场、手雷投掷区与限时零误伤 CQB 突入屋实战考核，熟悉全武器操控与战术互动。</p>
+            <div class="cp-art">
+              <img src="./assets/ui/camp_training.jpg" alt="训练关 · 铁砧营地" loading="eager" />
+            </div>
+            <button class="btn" id="btn-train"><span>进入训练营</span><em>DEPLOY PROLOGUE</em></button>
+          </article>
+
+          <article class="cp-card featured">
+            <div class="cp-badge gold">CHAPTER 01 · 第一关</div>
+            <div class="cp-chapter">深海利刃 · 泰山号万吨货轮</div>
+            <div class="cp-en">HIGH SEAS · M/V TAISHAN (276M)</div>
+            <p class="cp-desc">十二级台风夜索降 276 米万吨货轮！零空气墙贯穿六大战区：船尾集装箱迷阵、四层上层建筑（B1 地下船舱与冷库、1F 卫生间、2F 大餐厅与不锈钢后厨、3F 全景舰桥）、14 米主货舱、双机 18 米轮机舱断电进水危机、双龙门吊前甲板与船艏停机坪决战。</p>
+            <div class="cp-art">
+              <img src="./assets/ui/camp_taishan.jpg" alt="深海利刃 · 泰山号万吨货轮" loading="eager" />
+            </div>
+            <button class="btn primary" id="btn-highseas"><span>部署第一关</span><em>DEPLOY CHAPTER 01</em></button>
+          </article>
+
+          <article class="cp-card featured">
+            <div class="cp-badge gold">CHAPTER 02 · 第二关</div>
+            <div class="cp-chapter">戈壁炼狱 · 喀拉干达 7 号油田</div>
+            <div class="cp-en">GOBI INFERNO · KARAGANDA OILFIELD</div>
+            <p class="cp-desc">万里奔袭中亚黄沙油田，追剿厄普西隆跨国佣兵集团。六大战区连贯推进：峡谷潜行哨卡、抽油机与裂解塔炼油阵地、地下超算数据掩体 45 秒血战、海拔 +12m 悬崖卫星中继塔终局对决。</p>
+            <div class="cp-art">
+              <img src="./assets/ui/camp_oilfield.jpg" alt="戈壁炼狱 · 喀拉干达 7 号油田" loading="eager" />
+            </div>
+            <button class="btn primary" id="btn-oilfield"><span>部署第二关</span><em>DEPLOY CHAPTER 02</em></button>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- Archives Terminal ("档案" — 人物档案 with live 3D Character Viewer & 组织档案) -->
+    <div id="archives-panel" class="screen overlay hidden">
+      <div class="ar-shell">
+        <header class="gs-top">
+          <div class="gs-brand">
+            <i class="gs-brand-bar"></i>
+            <div>
+              <div class="gs-brand-kicker">TACTICAL ARCHIVES // 战区机密档案库</div>
+              <div class="gs-brand-title"><b>档案中心</b><span>人物 3D 实景检视与世界观组织档案</span></div>
+            </div>
+          </div>
+          <div class="ar-tabs">
+            <button class="ar-tab on" id="tab-ar-chars"><span>人物档案</span><em>PERSONNEL · 3D VIEW</em></button>
+            <button class="ar-tab" id="tab-ar-factions"><span>组织档案</span><em>FACTIONS &amp; UNITS</em></button>
+          </div>
+          <div class="gs-top-actions">
+            <button class="gs-act-btn primary" id="btn-archives-back">返回主菜单 <em>ESC</em></button>
+          </div>
+        </header>
+
+        <!-- Tab 1: Character Dossiers with Live 3D Turntable -->
+        <div class="ar-body" id="ar-chars-view">
+          <aside class="ar-list" id="ar-char-list"></aside>
+          <main class="ar-stage">
+            <div class="gs-stage-grid"></div>
+            <div class="ar-stage-head">
+              <div>
+                <div class="ar-callsign" id="ar-callsign">洞幺 · BLADE-1</div>
+                <div class="ar-cname" id="ar-cname">高远（老高）</div>
+              </div>
+              <span class="ar-status" id="ar-status">现役 · 作战指挥</span>
+            </div>
+            <canvas id="ar-preview"></canvas>
+            <div class="ar-stage-ctrl">
+              <button class="gs-cam-btn" id="btn-ar-pose">切换姿态：战术持枪</button>
+              <button class="gs-cam-btn" id="btn-ar-reset">重置 3D 视角</button>
+              <span class="gs-stage-tip">左键拖拽 360° 检视专属建模 · 滚轮缩放细节</span>
+            </div>
+          </main>
+          <aside class="ar-detail" id="ar-char-detail"></aside>
+        </div>
+
+        <!-- Tab 2: Organization Dossiers -->
+        <div class="ar-body hidden" id="ar-factions-view">
+          <aside class="ar-list" id="ar-fac-list"></aside>
+          <main class="ar-fac-detail" id="ar-fac-detail"></main>
+        </div>
+      </div>
+    </div>
+
+    <!-- HQ Tactical Support 3-Choose-1 Overlay (Hadir Defense) -->
+    <div id="hex-modal" class="screen overlay hidden">
+      <div class="hx-shell">
+        <div class="hx-kicker" id="hx-kicker">HQ TACTICAL SUPPORT // 总部战区支援空投</div>
+        <h2 class="hx-title" id="hx-title">选择一项总部战术支援</h2>
+        <div class="hx-sub" id="hx-sub">点击支援方案或按键盘 [1] [2] [3] 立即空投装配</div>
+        <div class="hx-cards" id="hx-cards"></div>
+      </div>
+    </div>
+
+    <!-- gunsmith (AAA full-screen tactical armory) -->
+    <div id="gunsmith" class="screen overlay hidden">
+      <div class="gs-shell">
+        <header class="gs-top">
+          <div class="gs-brand">
+            <i class="gs-brand-bar"></i>
+            <div>
+              <div class="gs-brand-kicker">TACTICAL ARMORY · 军械改装台</div>
+              <div class="gs-brand-title"><b id="gs-name">M4A1</b><span id="gs-class">突击步枪 · 全自动</span></div>
+            </div>
+          </div>
+          <div class="gs-top-mid">
+            <div class="gs-presets" id="gs-presets"></div>
+          </div>
+          <div class="gs-top-actions">
+            <button class="gs-act-btn dim" id="btn-gunsmith-reset" title="将当前武器所有配件重置为出厂默认">恢复出厂</button>
+            <button class="gs-act-btn primary" id="btn-gunsmith-back">完成并返回 <em>ESC</em></button>
+          </div>
+        </header>
+
+        <div class="gs-workspace">
+          <!-- Left: Categorized Weapon Armory Rack -->
+          <aside class="gs-rack">
+            <div class="gs-sec-head"><span>武器库</span><em>ARSENAL</em></div>
+            <div class="gs-list" id="gs-list"></div>
+          </aside>
+
+          <!-- Center: Full-Height 3D Studio Stage + Floating SVG Callouts -->
+          <main class="gs-stage" id="gs-stage">
+            <div class="gs-stage-grid"></div>
+            <div class="gs-stage-reticle tl"></div>
+            <div class="gs-stage-reticle tr"></div>
+            <div class="gs-stage-reticle bl"></div>
+            <div class="gs-stage-reticle br"></div>
+            <canvas id="gs-preview"></canvas>
+            <svg class="gs-lines" id="gs-lines"></svg>
+            <div class="gs-labels" id="gs-labels"></div>
+            <div class="gs-stage-bar">
+              <div class="gs-cam-group">
+                <button class="gs-cam-btn on" data-cam="hero">45° 展示</button>
+                <button class="gs-cam-btn" data-cam="side">正侧视</button>
+                <button class="gs-cam-btn" data-cam="rear">机瞄视角</button>
+              </div>
+              <span class="gs-stage-tip">左键拖拽旋转 · 滚轮缩放 · 点击枪身节点或右侧槽位改装</span>
+            </div>
+          </main>
+
+          <!-- Right: Live Ballistic Telemetry + Attachment Card Inspector -->
+          <aside class="gs-inspector">
+            <section class="gs-card gs-telemetry">
+              <div class="gs-sec-head"><span>弹道与机动参数</span><em>BALLISTICS</em></div>
+              <div class="gs-stats" id="gs-stats"></div>
+            </section>
+            <section class="gs-card gs-drawer">
+              <div class="gs-sec-head"><span id="gs-slot-heading">配件槽位</span><em id="gs-slot-count">0/0</em></div>
+              <div class="gs-slot-tabs" id="gs-slot-tabs"></div>
+              <div class="gs-att-list" id="gs-att-list"></div>
+            </section>
+          </aside>
+        </div>
+
+        <footer class="gs-foot">
+          <span class="gs-foot-status"><i class="gs-dot-live"></i>改装配置实时保存至本地军械库，进入战局自动装配</span>
+          <span class="gs-foot-meta">OPERATION RED SAND · GUNSMITH V2</span>
+        </footer>
+      </div>
+    </div>
+
+    <!-- settings -->
+    <div id="settings" class="screen overlay hidden">
+      <div class="panel">
+        <div class="pn-head"><h2>设置</h2><em>OPTIONS</em></div>
+        <label class="row"><span>鼠标灵敏度</span><input type="range" id="set-sens" min="0.2" max="3" step="0.05" /><b id="val-sens"></b></label>
+        <label class="row"><span>视野 (FOV)</span><input type="range" id="set-fov" min="60" max="100" step="1" /><b id="val-fov"></b></label>
+        <label class="row"><span>主音量</span><input type="range" id="set-vol" min="0" max="1" step="0.01" /><b id="val-vol"></b></label>
+        <div class="row">
+          <span>画面质量</span>
+          <div class="seg" id="set-quality">
+            <button data-q="low">低</button><button data-q="medium">中</button><button data-q="high">高</button>
+          </div>
+          <b></b>
+        </div>
+        <div class="pn-note">「高」启用环境光遮蔽、4K 阴影、4K 主材质与 1.5× 渲染分辨率；「中／低」改用 2K 主材质，纹理尺寸在重新进入关卡后生效。</div>
+        <div class="pn-foot"><button class="btn small" id="btn-settings-back"><span>返回</span></button></div>
+      </div>
+    </div>
+
+    <!-- help -->
+    <div id="help" class="screen overlay hidden">
+      <div class="panel wide">
+        <div class="pn-head"><h2>操作说明</h2><em>CONTROLS</em></div>
+        <div class="keys">
+          <div><span class="key">W</span><span class="key">A</span><span class="key">S</span><span class="key">D</span><p>移动</p></div>
+          <div><span class="key wide">鼠标</span><p>瞄准视角</p></div>
+          <div><span class="key wide">左键</span><p>开火</p></div>
+          <div><span class="key wide">右键</span><p>举枪瞄准 (ADS)</p></div>
+          <div><span class="key wide">Shift</span><p>冲刺</p></div>
+          <div><span class="key wide">空格</span><p>跳跃</p></div>
+          <div><span class="key">C</span><span class="key wide">Ctrl</span><p>蹲下</p></div>
+          <div><span class="key">R</span><p>换弹</p></div>
+          <div><span class="key">1</span><span class="key">2</span><span class="key">3</span><p>步枪 / 狙击枪 / 手枪</p></div>
+          <div><span class="key">Q</span><span class="key wide">滚轮</span><p>切换武器</p></div>
+          <div><span class="key">G</span><p>投掷手雷</p></div>
+          <div><span class="key">V</span><p>近战攻击</p></div>
+          <div><span class="key">N</span><span class="key">T</span><p>四目夜视仪 / 枪口战术灯（深海截击）</p></div>
+          <div><span class="key">E</span><p>与附近队友 / NPC 对话交流</p></div>
+          <div><span class="key">B</span><p>切换武器配件</p></div>
+          <div><span class="key">F</span><p>在补给点补充弹药</p></div>
+          <div><span class="key wide">Esc</span><p>暂停</p></div>
+        </div>
+        <div class="pn-note">
+          敌军一波比一波强。爆头伤害更高；红色油桶可以引爆；击毙的敌人有几率掉落弹药箱；地图上有 3 处蓝色光柱标记的补给点。脱离战斗数秒后生命值会自动恢复。
+        </div>
+        <div class="pn-foot"><button class="btn small" id="btn-help-back"><span>返回</span></button></div>
+      </div>
+    </div>
+
+    <!-- pause -->
+    <div id="pause" class="screen overlay hidden">
+      <div class="panel narrow">
+        <div class="pn-head"><h2>行动暂停</h2><em>PAUSED</em></div>
+        <nav class="pn-nav">
+          <button class="btn primary" id="btn-resume"><span>继续行动</span></button>
+          <button class="btn" id="btn-pause-gunsmith"><span>军械改装</span></button>
+          <button class="btn" id="btn-pause-intel"><span>情报档案</span></button>
+          <button class="btn" id="btn-pause-settings"><span>设置</span></button>
+          <button class="btn" id="btn-pause-help"><span>操作说明</span></button>
+          <button class="btn" id="btn-restart"><span>重新部署</span></button>
+          <button class="btn" id="btn-quit"><span>返回主菜单</span></button>
+        </nav>
+      </div>
+    </div>
+
+    <!-- AAA full-screen classified intel archive terminal -->
+    <div id="intel" class="screen overlay hidden">
+      <div class="in-shell">
+        <header class="in-top">
+          <div class="in-brand">
+            <i class="in-brand-bar"></i>
+            <div>
+              <div class="in-brand-kicker">CLASSIFIED ARCHIVE · 战地绝密情报终端</div>
+              <div class="in-brand-title"><span>泰山号专项档案</span><em>OPERATION RED SAND</em></div>
+            </div>
+          </div>
+          <div class="in-filters" id="in-filters">
+            <button class="in-filter on" data-cat="all">全部档案</button>
+            <button class="in-filter" data-cat="comms">通讯截获</button>
+            <button class="in-filter" data-cat="hardware">军械物证</button>
+            <button class="in-filter" data-cat="dossier">绝密线索</button>
+          </div>
+          <div class="in-top-right">
+            <div class="in-prog">
+              <div class="in-prog-head"><span>解密进度</span><b id="intel-count">0 / 6</b></div>
+              <div class="in-prog-bar"><i id="in-prog-fill"></i></div>
+            </div>
+            <button class="gs-act-btn primary" id="btn-intel-back"><span>返回</span><em>ESC</em></button>
+          </div>
+        </header>
+
+        <div class="in-workspace">
+          <!-- Left: Classified File Index Rail -->
+          <aside class="in-rail">
+            <div class="gs-sec-head"><span>情报索引</span><em>DOSSIERS</em></div>
+            <div class="in-list" id="intel-list"></div>
+          </aside>
+
+          <!-- Center: 3D Forensic Evidence Viewer + M/V Taishan SVG Recovery Schematic -->
+          <main class="in-stage">
+            <div class="gs-stage-grid"></div>
+            <div class="gs-stage-reticle tl"></div>
+            <div class="gs-stage-reticle tr"></div>
+            <div class="gs-stage-reticle bl"></div>
+            <div class="gs-stage-reticle br"></div>
+
+            <div class="in-stage-head">
+              <div>
+                <div class="in-stage-kicker">3D FORENSIC SCANNER · 实景物证检视</div>
+                <div class="in-stage-code" id="in-stage-code">RS-01-COM</div>
+              </div>
+              <span class="in-clearance" id="in-clearance">绝密 · TOP SECRET</span>
+            </div>
+
+            <canvas id="in-preview"></canvas>
+
+            <div class="in-stage-foot">
+              <div class="in-ship-card">
+                <div class="in-ship-head"><span>泰山号发现坐标 · RECOVERY LOCATOR</span><em id="in-zone-tag">ZONE A</em></div>
+                <svg class="in-ship-svg" id="in-ship-svg" viewBox="0 0 320 76">
+                  <!-- Hull outline (stern left -> pointed bow right) -->
+                  <polygon points="12,14 252,14 308,38 252,62 12,62" fill="rgba(56,228,255,0.05)" stroke="rgba(142,188,224,0.38)" stroke-width="1.4" />
+                  <!-- Zone dividers -->
+                  <line x1="94" y1="14" x2="94" y2="62" stroke="rgba(255,255,255,0.16)" stroke-dasharray="3 2" />
+                  <line x1="146" y1="14" x2="146" y2="62" stroke="rgba(255,255,255,0.16)" stroke-dasharray="3 2" />
+                  <line x1="234" y1="14" x2="234" y2="62" stroke="rgba(255,255,255,0.16)" stroke-dasharray="3 2" />
+                  <!-- Superstructure & Helipad schematic cues -->
+                  <rect x="98" y="18" width="44" height="40" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.28)" stroke-width="1" />
+                  <circle cx="268" cy="38" r="12" fill="none" stroke="rgba(232,176,74,0.45)" stroke-width="1.2" />
+                  <text x="52" y="72" fill="rgba(235,242,248,0.42)" font-size="8" text-anchor="middle">ZONE A 船尾</text>
+                  <text x="120" y="72" fill="rgba(235,242,248,0.42)" font-size="8" text-anchor="middle">ZONE B 上层</text>
+                  <text x="190" y="72" fill="rgba(235,242,248,0.42)" font-size="8" text-anchor="middle">ZONE C 货舱</text>
+                  <text x="266" y="72" fill="rgba(235,242,248,0.42)" font-size="8" text-anchor="middle">ZONE D 船头</text>
+                  <g id="in-ship-pins"></g>
+                </svg>
+              </div>
+              <div class="in-stage-ctrl">
+                <button class="gs-cam-btn" id="btn-in-reset">重置物证视角</button>
+                <span class="gs-stage-tip">左键拖拽 360° 检视物证 · 滚轮缩放细节</span>
+              </div>
+            </div>
+          </main>
+
+          <!-- Right: Classified Decrypted Transcript & Specialist Analysis -->
+          <aside class="in-reader" id="in-reader"></aside>
+        </div>
+
+        <footer class="gs-foot">
+          <span class="gs-foot-status"><i class="in-dot-cyan"></i>NW-INSTITUTE SECURE ARCHIVE · 情报数据实时加密同步至本地档案库</span>
+          <span class="gs-foot-meta">OPERATION RED SAND · CLASSIFIED INTEL V2</span>
+        </footer>
+      </div>
+    </div>
+
+    <!-- game over / mission failed (mode-aware) -->
+    <div id="dead" class="screen hidden">
+      <div class="dd-inner">
+        <div class="dd-kicker" id="dd-kicker">K.I.A.</div>
+        <h1 class="dd-title" id="dd-title">阵亡</h1>
+        <div class="dd-sub" id="dd-sub">你坚守到了第 1 波</div>
+        <div class="dd-stats">
+          <div><b id="st-score">0</b><span id="st-score-lbl">得分</span></div>
+          <div><b id="st-kills">0</b><span id="st-kills-lbl">击杀</span></div>
+          <div><b id="st-head">0</b><span id="st-head-lbl">爆头</span></div>
+          <div><b id="st-acc">0%</b><span id="st-acc-lbl">命中率</span></div>
+          <div><b id="st-time">0:00</b><span id="st-time-lbl">存活时间</span></div>
+        </div>
+        <div class="dd-new hidden" id="dd-new">新纪录</div>
+        <nav class="dd-nav">
+          <button class="btn primary" id="btn-retry"><span id="btn-retry-txt">重新部署</span><em id="btn-retry-en">REDEPLOY</em></button>
+          <button class="btn" id="btn-dead-quit"><span>返回主菜单</span><em>MAIN MENU</em></button>
+        </nav>
+      </div>
+    </div>
+
+    <!-- mission debrief / training complete (mode-aware) -->
+    <div id="debrief" class="screen hidden">
+      <div class="dd-inner">
+        <div class="dd-kicker" id="db-kicker">TRAINING COMPLETE · CAMP ANVIL</div>
+        <h1 class="dd-title" id="db-title">考核结束</h1>
+        <div class="dd-sub" id="db-sub">突入屋 · 第 1 次</div>
+        <div class="db-grade"><b id="db-grade">A</b><span id="db-grade-text">优秀</span></div>
+        <div class="dd-stats">
+          <div><b id="db-time">0:00.0</b><span id="db-time-lbl">突入用时</span></div>
+          <div><b id="db-hostile">0/0</b><span id="db-hostile-lbl">敌靶命中</span></div>
+          <div><b id="db-civ">0</b><span id="db-civ-lbl">误伤平民</span></div>
+          <div><b id="db-acc">0%</b><span id="db-acc-lbl">命中率</span></div>
+          <div><b id="db-total">0:00</b><span id="db-total-lbl">训练用时</span></div>
+        </div>
+        <div class="dd-new hidden" id="db-new">新纪录</div>
+        <nav class="dd-nav">
+          <button class="btn primary" id="btn-db-deploy"><span id="btn-db-deploy-txt">开赴哈迪尔</span><em id="btn-db-deploy-en">DEPLOY</em></button>
+          <button class="btn" id="btn-db-retry"><span id="btn-db-retry-txt">再跑一次突入屋</span><em id="btn-db-retry-en">RETRY</em></button>
+          <button class="btn" id="btn-db-quit"><span>返回主菜单</span><em>MAIN MENU</em></button>
+        </nav>
+      </div>
+    </div>
+
+    <div id="fatal" class="hidden"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

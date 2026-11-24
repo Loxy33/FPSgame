@@ -1,0 +1,11006 @@
+{
+  "meta": {
+    "level": "MV_Taishan_HighSeas_V2",
+    "grid": 1,
+    "floors": {
+      "hold_lower": -6,
+      "main_deck_1f_catwalk": 0,
+      "bow_helipad": 2,
+      "gantry_catwalk": 2.6,
+      "super_2f": 3.6,
+      "super_3f": 7.2
+    }
+  },
+  "architecture": [
+    {
+      "id": "a_deck",
+      "asset": "Deck_Slab_28x54",
+      "zone": "A",
+      "pos": [
+        0,
+        0,
+        -69
+      ],
+      "rot": 0,
+      "color": "#2a343f"
+    },
+    {
+      "id": "a_bulw_1",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        -14,
+        0,
+        -92
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_2",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        -14,
+        0,
+        -84
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_3",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        -14,
+        0,
+        -76
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_4",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        -14,
+        0,
+        -68
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_5",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        -14,
+        0,
+        -60
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_6",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        -14,
+        0,
+        -52
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_7",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        14,
+        0,
+        -92
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_8",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        14,
+        0,
+        -84
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_9",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        14,
+        0,
+        -76
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_10",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        14,
+        0,
+        -68
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_11",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        14,
+        0,
+        -60
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_bulw_12",
+      "asset": "Bulwark_Wall_8m",
+      "zone": "A",
+      "pos": [
+        14,
+        0,
+        -52
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_stern_bulw_13",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "A",
+      "pos": [
+        -9,
+        0,
+        -96
+      ],
+      "rot": 90
+    },
+    {
+      "id": "a_stern_bulw_14",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "A",
+      "pos": [
+        -3,
+        0,
+        -96
+      ],
+      "rot": 90
+    },
+    {
+      "id": "a_stern_bulw_15",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "A",
+      "pos": [
+        3,
+        0,
+        -96
+      ],
+      "rot": 90
+    },
+    {
+      "id": "a_stern_bulw_16",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "A",
+      "pos": [
+        9,
+        0,
+        -96
+      ],
+      "rot": 90
+    },
+    {
+      "id": "a_catwalk_fix",
+      "asset": "Catwalk_Grate_4x28",
+      "zone": "A",
+      "pos": [
+        10,
+        2.6,
+        -63
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_stair_s",
+      "asset": "Stair_Gantry_2x6",
+      "zone": "A",
+      "pos": [
+        10,
+        0,
+        -80
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_stair_n",
+      "asset": "Stair_Gantry_2x6",
+      "zone": "A",
+      "pos": [
+        10,
+        0,
+        -46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "a_gantry_arch",
+      "asset": "Gantry_Arch_28m",
+      "zone": "A",
+      "pos": [
+        0,
+        0,
+        -62
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_1f_deck",
+      "asset": "Deck_Slab_28x24",
+      "zone": "B",
+      "pos": [
+        0,
+        0,
+        -30
+      ],
+      "rot": 0,
+      "color": "#363f48"
+    },
+    {
+      "id": "b_pil_17",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_18",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_19",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_20",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_21",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_22",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_23",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_24",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_25",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        0,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_26",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        2.8,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_27",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        0,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_28",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        2.8,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_29",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        0,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_30",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        2.8,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_31",
+      "asset": "DoorFrame_Watertight",
+      "zone": "B",
+      "pos": [
+        0,
+        0,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_32",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        2.8,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_33",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        0,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_34",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        2.8,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_35",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        8,
+        0,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_36",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        8,
+        2.8,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_37",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        12,
+        0,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_38",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        12,
+        2.8,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_39",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_40",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_41",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_42",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_43",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_44",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_45",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_46",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_47",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        0,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_48",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        2.8,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_49",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        0,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_50",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        2.8,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_51",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        0,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_52",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        2.8,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_53",
+      "asset": "DoorFrame_Watertight",
+      "zone": "B",
+      "pos": [
+        0,
+        0,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4",
+      "note": "Physical armored airlock connecting Zone B 1F to Zone C Main Cargo Hold Catwalk"
+    },
+    {
+      "id": "b_w_55",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        0,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_56",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        2.8,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_57",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        8,
+        0,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_58",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        8,
+        2.8,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_59",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        12,
+        0,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_60",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        12,
+        2.8,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_pil_61",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_62",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_63",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_64",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_65",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_66",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -40
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_67",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        2.8,
+        -40
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_68",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -36
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_69",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        2.8,
+        -36
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_70",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -32
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_71",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        2.8,
+        -32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_72",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -28
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_73",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        2.8,
+        -28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_74",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -24
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_75",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        2.8,
+        -24
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_76",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        0,
+        -20
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_77",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        2.8,
+        -20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_pil_78",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_79",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_80",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_81",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_82",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_83",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -40
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_84",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        2.8,
+        -40
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_85",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -36
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_86",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        2.8,
+        -36
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_87",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -32
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_88",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        2.8,
+        -32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_89",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -28
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_90",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        2.8,
+        -28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_91",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -24
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_92",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        2.8,
+        -24
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_93",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        0,
+        -20
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_94",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        2.8,
+        -20
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_pil_95",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_96",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_97",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_98",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_99",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        0,
+        -34
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_100",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        2.8,
+        -34
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_101",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        0,
+        -34
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_102",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        2.8,
+        -34
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_103",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        0,
+        -34
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_104",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        2.8,
+        -34
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_pil_105",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_106",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_107",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_108",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_109",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        0,
+        -26
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_110",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        2.8,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_111",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        0,
+        -26
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_112",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        2.8,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_113",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        0,
+        -26
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_114",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        2.8,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_115",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        0,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_116",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -6,
+        0,
+        -32
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_117",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -6,
+        2.8,
+        -32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_118",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -6,
+        0,
+        -28
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_119",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -6,
+        2.8,
+        -28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_pil_120",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        0,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_121",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        6,
+        0,
+        -32
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_122",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        6,
+        2.8,
+        -32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_123",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        6,
+        0,
+        -28
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_124",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        6,
+        2.8,
+        -28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_pil_125",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_126",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_127",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_128",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_129",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_130",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -40
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_131",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -10,
+        2.8,
+        -40
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_132",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -36
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_133",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -10,
+        2.8,
+        -36
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_134",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -32
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_135",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -10,
+        2.8,
+        -32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_136",
+      "asset": "DoorFrame_Cabin",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -28
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_137",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -10,
+        2.8,
+        -28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_138",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -24
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_139",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -10,
+        2.8,
+        -24
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_140",
+      "asset": "DoorFrame_Cabin",
+      "zone": "B",
+      "pos": [
+        -10,
+        0,
+        -20
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_141",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -10,
+        2.8,
+        -20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_pil_142",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_143",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_144",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_145",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_146",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_147",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -40
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_148",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        10,
+        2.8,
+        -40
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_149",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -36
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_150",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        10,
+        2.8,
+        -36
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_151",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -32
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_152",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        10,
+        2.8,
+        -32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_153",
+      "asset": "DoorFrame_Cabin",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -28
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_154",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        10,
+        2.8,
+        -28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_155",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -24
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_156",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        10,
+        2.8,
+        -24
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_157",
+      "asset": "DoorFrame_Cabin",
+      "zone": "B",
+      "pos": [
+        10,
+        0,
+        -20
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_158",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        10,
+        2.8,
+        -20
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_stair_1f2f",
+      "asset": "Stair_Steel_3x6",
+      "zone": "B",
+      "pos": [
+        8,
+        0,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_2f_deck",
+      "asset": "Deck_Slab_28x24",
+      "zone": "B",
+      "pos": [
+        0,
+        3.6,
+        -30
+      ],
+      "rot": 0,
+      "color": "#3a434d"
+    },
+    {
+      "id": "b_pil_159",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_160",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_161",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_162",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_163",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_164",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_165",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_166",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_167",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        3.6,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_168",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        6.4,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_169",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        3.6,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_170",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        6.4,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_171",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        3.6,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_172",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        6.4,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_173",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        3.6,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_174",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        6.4,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_175",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        3.6,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_176",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        6.4,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_177",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        8,
+        3.6,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_178",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        8,
+        6.4,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_179",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        12,
+        3.6,
+        -42
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_180",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        12,
+        6.4,
+        -42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_181",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_182",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_183",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_184",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_185",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_186",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_187",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_188",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_189",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        3.6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_190",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        6.4,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_191",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        3.6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_192",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        6.4,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_193",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        3.6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_194",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        6.4,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_195",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        3.6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_196",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        6.4,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_197",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        3.6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_198",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        6.4,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_199",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        8,
+        3.6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_200",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        8,
+        6.4,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_201",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        12,
+        3.6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_202",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        12,
+        6.4,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_pil_203",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_204",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_205",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_206",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_207",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_208",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -40
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_209",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        6.4,
+        -40
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_210",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -36
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_211",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        6.4,
+        -36
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_212",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -32
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_213",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        6.4,
+        -32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_214",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -28
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_215",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        6.4,
+        -28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_216",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -24
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_217",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        6.4,
+        -24
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_218",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        3.6,
+        -20
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_219",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        6.4,
+        -20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_pil_220",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_221",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_222",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_223",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_224",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_225",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -40
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_226",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        6.4,
+        -40
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_227",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -36
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_228",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        6.4,
+        -36
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_229",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -32
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_230",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        6.4,
+        -32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_231",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -28
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_232",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        6.4,
+        -28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_233",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -24
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_234",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        6.4,
+        -24
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_235",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        3.6,
+        -20
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_236",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        6.4,
+        -20
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_pil_237",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        3.6,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_238",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        3.6,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_239",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        3.6,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_240",
+      "asset": "DoorFrame_Cabin",
+      "zone": "B",
+      "pos": [
+        2,
+        3.6,
+        -32
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_241",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        2,
+        6.4,
+        -32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_242",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        2,
+        3.6,
+        -28
+      ],
+      "rot": 90,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_243",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        2,
+        6.4,
+        -28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_pil_244",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        3.6,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_245",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        3.6,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_246",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        3.6,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_247",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        3.6,
+        -26
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_248",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        6.4,
+        -26
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_249",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        3.6,
+        -26
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_250",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        6.4,
+        -26
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_251",
+      "asset": "DoorFrame_Cabin",
+      "zone": "B",
+      "pos": [
+        -4,
+        3.6,
+        -26
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_252",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        6.4,
+        -26
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_253",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        3.6,
+        -26
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_254",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        6.4,
+        -26
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_pil_255",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        3.6,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_256",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        3.6,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_257",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        3.6,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_258",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        3.6,
+        -34
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_259",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        6.4,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_260",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        3.6,
+        -34
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_261",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        6.4,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_262",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        3.6,
+        -34
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_263",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        6.4,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_264",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        3.6,
+        -34
+      ],
+      "rot": 0,
+      "color": "#9aa5b0"
+    },
+    {
+      "id": "b_pipe_265",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        6.4,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_stair_2f3f",
+      "asset": "Stair_Steel_3x6",
+      "zone": "B",
+      "pos": [
+        11,
+        3.6,
+        -31
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_3f_deck",
+      "asset": "Deck_Slab_28x16",
+      "zone": "B",
+      "pos": [
+        0,
+        7.2,
+        -26
+      ],
+      "rot": 0,
+      "color": "#2e3740"
+    },
+    {
+      "id": "b_3f_roof",
+      "asset": "Deck_Slab_28x16",
+      "zone": "B",
+      "pos": [
+        0,
+        10.8,
+        -26
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pil_266",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_267",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_268",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_269",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_270",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_271",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_272",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_273",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_274",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        7.2,
+        -34
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_275",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        10,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_276",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        7.2,
+        -34
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_277",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        10,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_278",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        7.2,
+        -34
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_279",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        10,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_280",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        7.2,
+        -34
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_281",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        10,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_282",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        7.2,
+        -34
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_283",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        10,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_284",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        8,
+        7.2,
+        -34
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_285",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        8,
+        10,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_286",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        12,
+        7.2,
+        -34
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_287",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        12,
+        10,
+        -34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_288",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_289",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_290",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_291",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_292",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -32
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_293",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        10,
+        -32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_294",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -28
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_295",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        10,
+        -28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_296",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -24
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_297",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        10,
+        -24
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_w_298",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        -14,
+        7.2,
+        -20
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_299",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -14,
+        10,
+        -20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_pil_300",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_301",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_302",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_303",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_304",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -32
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_305",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        10,
+        -32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_306",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -28
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_307",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        10,
+        -28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_308",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -24
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_309",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        10,
+        -24
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_w_310",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "B",
+      "pos": [
+        14,
+        7.2,
+        -20
+      ],
+      "rot": 90,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_311",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        14,
+        10,
+        -20
+      ],
+      "rot": 270
+    },
+    {
+      "id": "b_pil_312",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -10,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_313",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -6,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_314",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        -2,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_315",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        2,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_316",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        6,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_pil_317",
+      "asset": "Pillar",
+      "zone": "B",
+      "pos": [
+        10,
+        7.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_w_318",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        -12,
+        7.2,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_319",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -12,
+        10,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_320",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        -8,
+        7.2,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_321",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -8,
+        10,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_322",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        -4,
+        7.2,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_323",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        -4,
+        10,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_324",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        0,
+        7.2,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_325",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        0,
+        10,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_326",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        4,
+        7.2,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_327",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        4,
+        10,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_328",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        8,
+        7.2,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_329",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        8,
+        10,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "b_w_330",
+      "asset": "Wall_Window_4m",
+      "zone": "B",
+      "pos": [
+        12,
+        7.2,
+        -18
+      ],
+      "rot": 0,
+      "color": "#d6d8d4"
+    },
+    {
+      "id": "b_pipe_331",
+      "asset": "Pipe_Bundle",
+      "zone": "B",
+      "pos": [
+        12,
+        10,
+        -18
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_hold_floor",
+      "asset": "Deck_Slab_28x64",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        14
+      ],
+      "rot": 0,
+      "color": "#242c35"
+    },
+    {
+      "id": "c_hold_roof",
+      "asset": "Deck_Slab_28x64",
+      "zone": "C",
+      "pos": [
+        0,
+        7.2,
+        14
+      ],
+      "rot": 0,
+      "color": "#1e2730"
+    },
+    {
+      "id": "c_pil_332",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_333",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_334",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_335",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_336",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_337",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_338",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_339",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_340",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_341",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_342",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_343",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_344",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_345",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_346",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_347",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_348",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_349",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_350",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        -16
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_351",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_352",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        -12
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_353",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_354",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        -8
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_355",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        -4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_356",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        -4
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_357",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        0
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_358",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        0
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_359",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_360",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        4
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_361",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_362",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        8
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_363",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_364",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        12
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_365",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_366",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        16
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_367",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        20
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_368",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_369",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        24
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_370",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        24
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_371",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        28
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_372",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_373",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        32
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_374",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_375",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        36
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_376",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        36
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_377",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        40
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_378",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        40
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_379",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        -6,
+        44
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_380",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        -3.2,
+        44
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_pil_381",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_382",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_383",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_384",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_385",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_386",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_387",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_388",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_389",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_390",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_391",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_392",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_393",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_394",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_395",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_396",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_397",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_398",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_399",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        -16
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_400",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_401",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        -12
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_402",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_403",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        -8
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_404",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        -4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_405",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        -4
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_406",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        0
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_407",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        0
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_408",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_409",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        4
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_410",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_411",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        8
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_412",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_413",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        12
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_414",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_415",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        16
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_416",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        20
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_417",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        20
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_418",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        24
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_419",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        24
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_420",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        28
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_421",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_422",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        32
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_423",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_424",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        36
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_425",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        36
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_426",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        40
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_427",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        40
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_428",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        -6,
+        44
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_429",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        -3.2,
+        44
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_pil_430",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -10,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_431",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -6,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_432",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -2,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_433",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        2,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_434",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        6,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_435",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        10,
+        -6,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_436",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -12,
+        -6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_437",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -12,
+        -3.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_438",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -8,
+        -6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_439",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -8,
+        -3.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_440",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -4,
+        -6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_441",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -4,
+        -3.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_442",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_443",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        0,
+        -3.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_444",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        4,
+        -6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_445",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        4,
+        -3.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_446",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        8,
+        -6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_447",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        8,
+        -3.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_448",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        12,
+        -6,
+        -18
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_449",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        12,
+        -3.2,
+        -18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_450",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -10,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_451",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -6,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_452",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        -2,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_453",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        2,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_454",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        6,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_455",
+      "asset": "Pillar_Hold",
+      "zone": "C",
+      "pos": [
+        10,
+        -6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_456",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -12,
+        -6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_457",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -12,
+        -3.2,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_458",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -8,
+        -6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_459",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -8,
+        -3.2,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_460",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        -4,
+        -6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_461",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -4,
+        -3.2,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_462",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_463",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        0,
+        -3.2,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_464",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        4,
+        -6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_465",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        4,
+        -3.2,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_466",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        8,
+        -6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_467",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        8,
+        -3.2,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_468",
+      "asset": "Wall_Hold_4m",
+      "zone": "C",
+      "pos": [
+        12,
+        -6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_469",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        12,
+        -3.2,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_pil_470",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_471",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_472",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_473",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_474",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_475",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_476",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_477",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_478",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_479",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_480",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_481",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_482",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_483",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_484",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_485",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_486",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_487",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        -16
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_488",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_489",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        -12
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_490",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_491",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        -8
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_492",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        -4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_493",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        -4
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_494",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        0
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_495",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        0
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_496",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_497",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        4
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_498",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_499",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        8
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_500",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_501",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        12
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_502",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_503",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        16
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_504",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        20
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_505",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_506",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        24
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_507",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        24
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_508",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        28
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_509",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_510",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        32
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_511",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_512",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        36
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_513",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        36
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_514",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        40
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_515",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        40
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_516",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        0,
+        44
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_517",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        2.8,
+        44
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_pil_518",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_519",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_520",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_521",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_522",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_523",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_524",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_525",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_526",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_527",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_528",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_529",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_530",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_531",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_532",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_533",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_534",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_535",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        -16
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_536",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_537",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        -12
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_538",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_539",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        -8
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_540",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        -4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_541",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        -4
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_542",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        0
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_543",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        0
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_544",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_545",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        4
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_546",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_547",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        8
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_548",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_549",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        12
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_550",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_551",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        16
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_552",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        20
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_553",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        20
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_554",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        24
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_555",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        24
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_556",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        28
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_557",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_558",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        32
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_559",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_560",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        36
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_561",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        36
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_562",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        40
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_563",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        40
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_564",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        0,
+        44
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_565",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        2.8,
+        44
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_pil_566",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -10,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_567",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -6,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_568",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -2,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_569",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        2,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_570",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        6,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_571",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        10,
+        0,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_572",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -12,
+        0,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_573",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -12,
+        2.8,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_574",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -8,
+        0,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_575",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -8,
+        2.8,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_576",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -4,
+        0,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_577",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -4,
+        2.8,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_578",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        0,
+        0,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_579",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        0,
+        2.8,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_580",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        4,
+        0,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_581",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        4,
+        2.8,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_582",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        8,
+        0,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_583",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        8,
+        2.8,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_584",
+      "asset": "DoorFrame_Watertight",
+      "zone": "C",
+      "pos": [
+        12,
+        0,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_585",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        12,
+        2.8,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_pil_586",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_587",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_588",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_589",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_590",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_591",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_592",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_593",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_594",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_595",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_596",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_597",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_598",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_599",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_600",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_601",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_602",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_603",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        -16
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_604",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_605",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        -12
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_606",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_607",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        -8
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_608",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        -4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_609",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        -4
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_610",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        0
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_611",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        0
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_612",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_613",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        4
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_614",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_615",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        8
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_616",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_617",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        12
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_618",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_619",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        16
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_620",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        20
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_621",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_622",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        24
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_623",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        24
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_624",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        28
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_625",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        28
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_626",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        32
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_627",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        32
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_628",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        36
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_629",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        36
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_630",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        40
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_631",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        40
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_w_632",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -14,
+        3.6,
+        44
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_633",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -14,
+        6.4,
+        44
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_pil_634",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_635",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_636",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_637",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_638",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_639",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_640",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        10
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_641",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_642",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        18
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_643",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        22
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_644",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_645",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        30
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_646",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        34
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_647",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        38
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_648",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        42
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_649",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_650",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_651",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        -16
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_652",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_653",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        -12
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_654",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_655",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        -8
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_656",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        -4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_657",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        -4
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_658",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        0
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_659",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        0
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_660",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        4
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_661",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        4
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_662",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        8
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_663",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        8
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_664",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        12
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_665",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        12
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_666",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        16
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_667",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        16
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_668",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        20
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_669",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        20
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_670",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        24
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_671",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        24
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_672",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        28
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_673",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        28
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_674",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        32
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_675",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        32
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_676",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        36
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_677",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        36
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_678",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        40
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_679",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        40
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_w_680",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        14,
+        3.6,
+        44
+      ],
+      "rot": 90,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_681",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        14,
+        6.4,
+        44
+      ],
+      "rot": 270
+    },
+    {
+      "id": "c_pil_682",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -10,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_683",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -6,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_684",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        -2,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_685",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        2,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_686",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        6,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_pil_687",
+      "asset": "Pillar",
+      "zone": "C",
+      "pos": [
+        10,
+        3.6,
+        46
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_w_688",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -12,
+        3.6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_689",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -12,
+        6.4,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_690",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -8,
+        3.6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_691",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -8,
+        6.4,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_692",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        -4,
+        3.6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_693",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        -4,
+        6.4,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_694",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        0,
+        3.6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_695",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        0,
+        6.4,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_696",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        4,
+        3.6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_697",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        4,
+        6.4,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_698",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        8,
+        3.6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_699",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        8,
+        6.4,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_w_700",
+      "asset": "Wall_Bulkhead_4m",
+      "zone": "C",
+      "pos": [
+        12,
+        3.6,
+        46
+      ],
+      "rot": 0,
+      "color": "#2a3644"
+    },
+    {
+      "id": "c_pipe_701",
+      "asset": "Pipe_Bundle",
+      "zone": "C",
+      "pos": [
+        12,
+        6.4,
+        46
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_cat_s",
+      "asset": "Catwalk_Grate_28x4",
+      "zone": "C",
+      "pos": [
+        0,
+        0,
+        -16
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_cat_n",
+      "asset": "Catwalk_Grate_28x4",
+      "zone": "C",
+      "pos": [
+        0,
+        0,
+        44
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_cat_w",
+      "asset": "Catwalk_Grate_4x56",
+      "zone": "C",
+      "pos": [
+        -12,
+        0,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_cat_e",
+      "asset": "Catwalk_Grate_4x56",
+      "zone": "C",
+      "pos": [
+        12,
+        0,
+        14
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_stair_w",
+      "asset": "Stair_Hold_3x12",
+      "zone": "C",
+      "pos": [
+        -8,
+        -6,
+        -8
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_stair_e",
+      "asset": "Stair_Hold_3x12",
+      "zone": "C",
+      "pos": [
+        8,
+        -6,
+        -8
+      ],
+      "rot": 180
+    },
+    {
+      "id": "c_stair_exit",
+      "asset": "Stair_Hold_3x12",
+      "zone": "C",
+      "pos": [
+        12,
+        -6,
+        36
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_deck",
+      "asset": "Deck_Slab_28x38",
+      "zone": "D",
+      "pos": [
+        0,
+        0,
+        65
+      ],
+      "rot": 0,
+      "color": "#2a333e"
+    },
+    {
+      "id": "d_bulw_702",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        -14,
+        0,
+        50
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_703",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        -14,
+        0,
+        56
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_704",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        -14,
+        0,
+        62
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_705",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        -14,
+        0,
+        68
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_706",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        -14,
+        0,
+        74
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_707",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        -14,
+        0,
+        80
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_708",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        14,
+        0,
+        50
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_709",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        14,
+        0,
+        56
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_710",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        14,
+        0,
+        62
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_711",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        14,
+        0,
+        68
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_712",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        14,
+        0,
+        74
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_bulw_713",
+      "asset": "Bulwark_Wall_6m",
+      "zone": "D",
+      "pos": [
+        14,
+        0,
+        80
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_ramp_bow",
+      "asset": "Ramp_Helipad_6x8",
+      "zone": "D",
+      "pos": [
+        0,
+        0,
+        80
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_helipad",
+      "asset": "Helipad_Deck_20x16",
+      "zone": "D",
+      "pos": [
+        0,
+        2,
+        92
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_b_2f_roof_s",
+      "asset": "Deck_Slab_28x8",
+      "zone": "B",
+      "pos": [
+        0,
+        7.2,
+        -38
+      ],
+      "rot": 0,
+      "color": "#38434e",
+      "note": "Sealed south 2F ceiling slab"
+    },
+    {
+      "id": "aaa_a_overpass",
+      "asset": "Catwalk_Overpass_24x3",
+      "zone": "A",
+      "pos": [
+        1.4,
+        2.6,
+        -64
+      ],
+      "rot": 0,
+      "note": "Cross-deck steel skybridge linking starboard catwalk & port container roof"
+    },
+    {
+      "id": "aaa_a_gantry_n",
+      "asset": "Gantry_Arch_28m",
+      "zone": "A",
+      "pos": [
+        0,
+        0,
+        -49
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_a_crane_port",
+      "asset": "Cargo_Crane_Tower",
+      "zone": "A",
+      "pos": [
+        -12,
+        0,
+        -76
+      ],
+      "rot": 28,
+      "color": "#9c3c24",
+      "note": "Port stern cargo pedestal crane"
+    },
+    {
+      "id": "aaa_c_bridge_crane",
+      "asset": "Hold_Bridge_Crane",
+      "zone": "C",
+      "pos": [
+        0,
+        4.6,
+        14
+      ],
+      "rot": 0,
+      "note": "14m cargo hold traveling bridge crane with dangling container"
+    },
+    {
+      "id": "aaa_c_plank_w",
+      "asset": "Walkway_Plank_2x4",
+      "zone": "C",
+      "pos": [
+        -8.5,
+        -3.4,
+        17.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_c_plank_e",
+      "asset": "Walkway_Plank_2x4",
+      "zone": "C",
+      "pos": [
+        8.5,
+        -3.4,
+        17.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_d_crane_bow",
+      "asset": "Cargo_Crane_Tower",
+      "zone": "D",
+      "pos": [
+        12,
+        0,
+        62
+      ],
+      "rot": -142,
+      "color": "#a84426",
+      "note": "Forward bow cargo pedestal crane"
+    },
+    {
+      "id": "aaa_d_gantry_bow",
+      "asset": "Gantry_Arch_28m",
+      "zone": "D",
+      "pos": [
+        0,
+        0,
+        52
+      ],
+      "rot": 0
+    }
+  ],
+  "tactical_cover": [
+    {
+      "id": "a_winch_l",
+      "asset": "Cover_Winch_Low",
+      "zone": "A",
+      "pos": [
+        -5,
+        0,
+        -85
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_winch_r",
+      "asset": "Cover_Winch_Low",
+      "zone": "A",
+      "pos": [
+        5,
+        0,
+        -85
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_cont_l1",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        0,
+        -73
+      ],
+      "rot": 0,
+      "color": "#8a3228"
+    },
+    {
+      "id": "a_cont_l1_top",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        2.6,
+        -73
+      ],
+      "rot": 0,
+      "color": "#2b5173"
+    },
+    {
+      "id": "a_cont_l2",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        0,
+        -64
+      ],
+      "rot": 0,
+      "color": "#2f5842"
+    },
+    {
+      "id": "a_cont_l3",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        0,
+        -55
+      ],
+      "rot": 0,
+      "color": "#a66526"
+    },
+    {
+      "id": "a_cont_l3_top",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        2.6,
+        -55
+      ],
+      "rot": 0,
+      "color": "#394f64"
+    },
+    {
+      "id": "a_cont_l4",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        0,
+        -47
+      ],
+      "rot": 0,
+      "color": "#365874"
+    },
+    {
+      "id": "a_cont_r1",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        0,
+        -73
+      ],
+      "rot": 0,
+      "color": "#2a5376"
+    },
+    {
+      "id": "a_cont_r2",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        0,
+        -64
+      ],
+      "rot": 0,
+      "color": "#88342a"
+    },
+    {
+      "id": "a_cont_r3",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        0,
+        -55
+      ],
+      "rot": 0,
+      "color": "#2f5a44"
+    },
+    {
+      "id": "a_cont_r4",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        0,
+        -47
+      ],
+      "rot": 0,
+      "color": "#9e6226"
+    },
+    {
+      "id": "a_cov_c1",
+      "asset": "Cover_Crate_Low",
+      "zone": "A",
+      "pos": [
+        -2.2,
+        0,
+        -74
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_cov_c2",
+      "asset": "Cover_Barricade_Low",
+      "zone": "A",
+      "pos": [
+        2.2,
+        0,
+        -66
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_cov_c3",
+      "asset": "Cover_Crate_Low",
+      "zone": "A",
+      "pos": [
+        -2.2,
+        0,
+        -58
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_cov_c4",
+      "asset": "Cover_Barricade_Low",
+      "zone": "A",
+      "pos": [
+        2.2,
+        0,
+        -50
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_cov_p1",
+      "asset": "Cover_Crate_Low",
+      "zone": "A",
+      "pos": [
+        -11.2,
+        0,
+        -71
+      ],
+      "rot": 90
+    },
+    {
+      "id": "a_cov_p2",
+      "asset": "Cover_Barricade_Low",
+      "zone": "A",
+      "pos": [
+        -10.8,
+        0,
+        -61
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_cov_p3",
+      "asset": "Cover_Crate_Low",
+      "zone": "A",
+      "pos": [
+        -11.2,
+        0,
+        -52
+      ],
+      "rot": 90
+    },
+    {
+      "id": "b_1f_cov1",
+      "asset": "Cover_Crate_Low",
+      "zone": "B",
+      "pos": [
+        -4,
+        0,
+        -37
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_1f_cov2",
+      "asset": "Cover_Crate_Low",
+      "zone": "B",
+      "pos": [
+        4,
+        0,
+        -37
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_1f_cov3",
+      "asset": "Cover_Barricade_Low",
+      "zone": "B",
+      "pos": [
+        -8,
+        0,
+        -35
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_1f_cov4",
+      "asset": "Cover_Barricade_Low",
+      "zone": "B",
+      "pos": [
+        8,
+        0,
+        -35
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_1f_cov5",
+      "asset": "Cover_Crate_Low",
+      "zone": "B",
+      "pos": [
+        -4,
+        0,
+        -22.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_2f_tbl1",
+      "asset": "Cover_Table_Steel",
+      "zone": "B",
+      "pos": [
+        -10.5,
+        3.6,
+        -31.8
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_2f_tbl2",
+      "asset": "Cover_Table_Steel",
+      "zone": "B",
+      "pos": [
+        -10.5,
+        3.6,
+        -28.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_2f_tbl3",
+      "asset": "Cover_Table_Steel",
+      "zone": "B",
+      "pos": [
+        -6.5,
+        3.6,
+        -31.8
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_2f_tbl4",
+      "asset": "Cover_Table_Steel",
+      "zone": "B",
+      "pos": [
+        -2.2,
+        3.6,
+        -28.8
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_3f_chart",
+      "asset": "Cover_Table_Steel",
+      "zone": "B",
+      "pos": [
+        0,
+        7.2,
+        -22.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_cont_1",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -3,
+        -6,
+        4
+      ],
+      "rot": 0,
+      "color": "#2c5274"
+    },
+    {
+      "id": "c_cont_2",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        3,
+        -6,
+        4
+      ],
+      "rot": 0,
+      "color": "#86362c"
+    },
+    {
+      "id": "c_cont_3",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -8.5,
+        -6,
+        12
+      ],
+      "rot": 0,
+      "color": "#9c6626"
+    },
+    {
+      "id": "c_cont_4",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        8.5,
+        -6,
+        12
+      ],
+      "rot": 0,
+      "color": "#2e5840"
+    },
+    {
+      "id": "c_cont_5",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -3,
+        -6,
+        16
+      ],
+      "rot": 0,
+      "color": "#3a4c5e"
+    },
+    {
+      "id": "c_cont_6",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        3,
+        -6,
+        16
+      ],
+      "rot": 0,
+      "color": "#7c342a"
+    },
+    {
+      "id": "c_cont_7",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -8.5,
+        -6,
+        23
+      ],
+      "rot": 0,
+      "color": "#2b5070"
+    },
+    {
+      "id": "c_cont_8",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        8.5,
+        -6,
+        23
+      ],
+      "rot": 0,
+      "color": "#985e24"
+    },
+    {
+      "id": "c_cont_9",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -3,
+        -6,
+        28
+      ],
+      "rot": 0,
+      "color": "#305842"
+    },
+    {
+      "id": "c_cont_10",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        3,
+        -6,
+        28
+      ],
+      "rot": 0,
+      "color": "#3b4d60"
+    },
+    {
+      "id": "c_cont_spec3",
+      "asset": "Container_20ft_Spec",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        40.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_fork_1",
+      "asset": "Cover_Forklift",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        10
+      ],
+      "rot": 18
+    },
+    {
+      "id": "c_fork_2",
+      "asset": "Cover_Forklift",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        22
+      ],
+      "rot": -22
+    },
+    {
+      "id": "c_cov_w1",
+      "asset": "Cover_Crate_Low",
+      "zone": "C",
+      "pos": [
+        -8.2,
+        -6,
+        4
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_cov_e1",
+      "asset": "Cover_Crate_Low",
+      "zone": "C",
+      "pos": [
+        8.2,
+        -6,
+        4
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_cov_w2",
+      "asset": "Cover_Barricade_Low",
+      "zone": "C",
+      "pos": [
+        -5.8,
+        -6,
+        20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_cov_e2",
+      "asset": "Cover_Barricade_Low",
+      "zone": "C",
+      "pos": [
+        5.8,
+        -6,
+        20
+      ],
+      "rot": 90
+    },
+    {
+      "id": "c_cov_n1",
+      "asset": "Cover_Crate_Low",
+      "zone": "C",
+      "pos": [
+        -5.5,
+        -6,
+        34.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_cov_n2",
+      "asset": "Cover_Crate_Low",
+      "zone": "C",
+      "pos": [
+        5.5,
+        -6,
+        34.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_cont_p1",
+      "asset": "Container_20ft",
+      "zone": "D",
+      "pos": [
+        -6.5,
+        0,
+        54
+      ],
+      "rot": 0,
+      "color": "#2a5272"
+    },
+    {
+      "id": "d_cont_p2",
+      "asset": "Container_20ft",
+      "zone": "D",
+      "pos": [
+        -6.5,
+        0,
+        65
+      ],
+      "rot": 0,
+      "color": "#8a3228"
+    },
+    {
+      "id": "d_cont_s1",
+      "asset": "Container_20ft",
+      "zone": "D",
+      "pos": [
+        7.5,
+        0,
+        56
+      ],
+      "rot": 0,
+      "color": "#9c6224"
+    },
+    {
+      "id": "d_cont_s2",
+      "asset": "Container_20ft",
+      "zone": "D",
+      "pos": [
+        7.5,
+        0,
+        68
+      ],
+      "rot": 0,
+      "color": "#2e5842"
+    },
+    {
+      "id": "d_cov_c1",
+      "asset": "Cover_Barricade_Low",
+      "zone": "D",
+      "pos": [
+        -1.8,
+        0,
+        55
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_cov_c2",
+      "asset": "Cover_Crate_Low",
+      "zone": "D",
+      "pos": [
+        2.2,
+        0,
+        63
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_cov_p3",
+      "asset": "Cover_Barricade_Low",
+      "zone": "D",
+      "pos": [
+        -10.5,
+        0,
+        60
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_cov_p4",
+      "asset": "Cover_Crate_Low",
+      "zone": "D",
+      "pos": [
+        -9.8,
+        0,
+        71
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_cov_bow",
+      "asset": "Cover_Barricade_Low",
+      "zone": "D",
+      "pos": [
+        -4,
+        2,
+        86
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_a_cont_l4_top",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        2.6,
+        -47
+      ],
+      "rot": 0,
+      "color": "#8f3324"
+    },
+    {
+      "id": "aaa_a_cont_l1_t3",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        -6.5,
+        5.2,
+        -73
+      ],
+      "rot": 0,
+      "color": "#8e6828"
+    },
+    {
+      "id": "aaa_a_cont_r1_top",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        2.6,
+        -73
+      ],
+      "rot": 0,
+      "color": "#2b523e"
+    },
+    {
+      "id": "aaa_a_cont_r3_top",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        2.6,
+        -55
+      ],
+      "rot": 0,
+      "color": "#913426"
+    },
+    {
+      "id": "aaa_a_cont_r4_top",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        2.6,
+        -47
+      ],
+      "rot": 0,
+      "color": "#334452"
+    },
+    {
+      "id": "aaa_a_cont_r4_t3",
+      "asset": "Container_20ft",
+      "zone": "A",
+      "pos": [
+        6.5,
+        5.2,
+        -47
+      ],
+      "rot": 0,
+      "color": "#264b6b"
+    },
+    {
+      "id": "aaa_a_boll_1",
+      "asset": "Mooring_Bollard",
+      "zone": "A",
+      "pos": [
+        -11.5,
+        0,
+        -93
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_a_boll_2",
+      "asset": "Mooring_Bollard",
+      "zone": "A",
+      "pos": [
+        11.5,
+        0,
+        -93
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_a_boll_3",
+      "asset": "Mooring_Bollard",
+      "zone": "A",
+      "pos": [
+        -12,
+        0,
+        -83
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_a_boll_4",
+      "asset": "Mooring_Bollard",
+      "zone": "A",
+      "pos": [
+        12,
+        0,
+        -83
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_a_reel_1",
+      "asset": "Cover_CableReel",
+      "zone": "A",
+      "pos": [
+        2.6,
+        0,
+        -73.5
+      ],
+      "rot": 22
+    },
+    {
+      "id": "aaa_a_reel_2",
+      "asset": "Cover_CableReel",
+      "zone": "A",
+      "pos": [
+        -2.4,
+        0,
+        -51.5
+      ],
+      "rot": -18
+    },
+    {
+      "id": "aaa_a_fork_1",
+      "asset": "Cover_Forklift",
+      "zone": "A",
+      "pos": [
+        2.4,
+        0,
+        -56.5
+      ],
+      "rot": -32
+    },
+    {
+      "id": "aaa_b_bunk_w1",
+      "asset": "Bunk_Bed_Marine",
+      "zone": "B",
+      "pos": [
+        -12.8,
+        0,
+        -31
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_b_bunk_w2",
+      "asset": "Bunk_Bed_Marine",
+      "zone": "B",
+      "pos": [
+        -12.8,
+        0,
+        -23
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_b_bunk_e1",
+      "asset": "Bunk_Bed_Marine",
+      "zone": "B",
+      "pos": [
+        12.8,
+        0,
+        -31
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_b_bunk_e2",
+      "asset": "Bunk_Bed_Marine",
+      "zone": "B",
+      "pos": [
+        12.8,
+        0,
+        -23
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_b_lock_1",
+      "asset": "Locker_Bank",
+      "zone": "B",
+      "pos": [
+        -9.2,
+        0,
+        -39.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_b_lock_2",
+      "asset": "Locker_Bank",
+      "zone": "B",
+      "pos": [
+        9.2,
+        0,
+        -39.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_b_lock_3",
+      "asset": "Locker_Bank",
+      "zone": "B",
+      "pos": [
+        -4.6,
+        0,
+        -27.5
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_b_lock_4",
+      "asset": "Locker_Bank",
+      "zone": "B",
+      "pos": [
+        4.6,
+        0,
+        -27.5
+      ],
+      "rot": -90
+    },
+    {
+      "id": "aaa_b_galley",
+      "asset": "Galley_Counter",
+      "zone": "B",
+      "pos": [
+        -6.5,
+        3.6,
+        -33.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_b_2f_lock",
+      "asset": "Locker_Bank",
+      "zone": "B",
+      "pos": [
+        13.4,
+        3.6,
+        -37.5
+      ],
+      "rot": -90
+    },
+    {
+      "id": "aaa_b_2f_reel",
+      "asset": "Cover_CableReel",
+      "zone": "B",
+      "pos": [
+        6,
+        3.6,
+        -36.5
+      ],
+      "rot": 15
+    },
+    {
+      "id": "aaa_b_3f_helm",
+      "asset": "Bridge_Helm_Station",
+      "zone": "B",
+      "pos": [
+        0,
+        7.2,
+        -19.6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_b_3f_w_l",
+      "asset": "Cover_Console_Bridge",
+      "zone": "B",
+      "pos": [
+        -8.5,
+        7.2,
+        -19.8
+      ],
+      "rot": 12
+    },
+    {
+      "id": "aaa_b_3f_w_r",
+      "asset": "Cover_Console_Bridge",
+      "zone": "B",
+      "pos": [
+        8.5,
+        7.2,
+        -19.8
+      ],
+      "rot": -12
+    },
+    {
+      "id": "aaa_b_3f_srv1",
+      "asset": "Server_Rack_Bank",
+      "zone": "B",
+      "pos": [
+        -11.5,
+        7.2,
+        -26.5
+      ],
+      "rot": 90
+    },
+    {
+      "id": "aaa_b_3f_srv2",
+      "asset": "Server_Rack_Bank",
+      "zone": "B",
+      "pos": [
+        11.5,
+        7.2,
+        -26.5
+      ],
+      "rot": -90
+    },
+    {
+      "id": "aaa_c_cont_3_top",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -8.5,
+        -3.4,
+        12
+      ],
+      "rot": 0,
+      "color": "#8f3324"
+    },
+    {
+      "id": "aaa_c_cont_4_top",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        8.5,
+        -3.4,
+        12
+      ],
+      "rot": 0,
+      "color": "#264b6b"
+    },
+    {
+      "id": "aaa_c_cont_7_top",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -8.5,
+        -3.4,
+        23
+      ],
+      "rot": 0,
+      "color": "#334854"
+    },
+    {
+      "id": "aaa_c_cont_8_top",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        8.5,
+        -3.4,
+        23
+      ],
+      "rot": 0,
+      "color": "#9c6e24"
+    },
+    {
+      "id": "aaa_c_cont_5_top",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        -3,
+        -3.4,
+        16
+      ],
+      "rot": 0,
+      "color": "#2b523e"
+    },
+    {
+      "id": "aaa_c_cont_10_top",
+      "asset": "Container_20ft",
+      "zone": "C",
+      "pos": [
+        3,
+        -3.4,
+        28
+      ],
+      "rot": 0,
+      "color": "#8e3226"
+    },
+    {
+      "id": "aaa_c_reel_1",
+      "asset": "Cover_CableReel",
+      "zone": "C",
+      "pos": [
+        -5.5,
+        -6,
+        12.5
+      ],
+      "rot": 30
+    },
+    {
+      "id": "aaa_c_reel_2",
+      "asset": "Cover_CableReel",
+      "zone": "C",
+      "pos": [
+        5.5,
+        -6,
+        22.5
+      ],
+      "rot": -25
+    },
+    {
+      "id": "aaa_c_srv_l",
+      "asset": "Server_Rack_Bank",
+      "zone": "C",
+      "pos": [
+        -2.8,
+        -6,
+        40.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_c_srv_r",
+      "asset": "Server_Rack_Bank",
+      "zone": "C",
+      "pos": [
+        2.8,
+        -6,
+        40.5
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_d_cont_p1_top",
+      "asset": "Container_20ft",
+      "zone": "D",
+      "pos": [
+        -6.5,
+        2.6,
+        54
+      ],
+      "rot": 0,
+      "color": "#264b6b"
+    },
+    {
+      "id": "aaa_d_cont_s1_top",
+      "asset": "Container_20ft",
+      "zone": "D",
+      "pos": [
+        7.5,
+        2.6,
+        56
+      ],
+      "rot": 0,
+      "color": "#8c6828"
+    },
+    {
+      "id": "aaa_d_cont_s2_top",
+      "asset": "Container_20ft",
+      "zone": "D",
+      "pos": [
+        7.5,
+        2.6,
+        68
+      ],
+      "rot": 0,
+      "color": "#2d4e3e"
+    },
+    {
+      "id": "aaa_d_reel_1",
+      "asset": "Cover_CableReel",
+      "zone": "D",
+      "pos": [
+        -2.6,
+        0,
+        71
+      ],
+      "rot": 14
+    },
+    {
+      "id": "aaa_d_boll_1",
+      "asset": "Mooring_Bollard",
+      "zone": "D",
+      "pos": [
+        -8.2,
+        2,
+        86
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_d_boll_2",
+      "asset": "Mooring_Bollard",
+      "zone": "D",
+      "pos": [
+        8.2,
+        2,
+        86
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_d_boll_3",
+      "asset": "Mooring_Bollard",
+      "zone": "D",
+      "pos": [
+        -8.2,
+        2,
+        97
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_d_boll_4",
+      "asset": "Mooring_Bollard",
+      "zone": "D",
+      "pos": [
+        8.2,
+        2,
+        97
+      ],
+      "rot": 0
+    }
+  ],
+  "dressing_and_decals": [
+    {
+      "id": "a_lifeboat",
+      "asset": "Prop_Lifeboat",
+      "zone": "A",
+      "pos": [
+        -12,
+        0,
+        -89
+      ],
+      "rot": 0,
+      "cluster": "cluster_a_stern"
+    },
+    {
+      "id": "a_cl1_1",
+      "asset": "Prop_Barrel",
+      "zone": "A",
+      "pos": [
+        -12.8,
+        0,
+        -84.2
+      ],
+      "rot": 8,
+      "cluster": "cluster_a_stern",
+      "color": "#3b5978"
+    },
+    {
+      "id": "a_cl1_2",
+      "asset": "Prop_Jerrycan",
+      "zone": "A",
+      "pos": [
+        -12,
+        0,
+        -84.5
+      ],
+      "rot": -12,
+      "cluster": "cluster_a_stern"
+    },
+    {
+      "id": "a_cl2_1",
+      "asset": "Prop_Barrel",
+      "zone": "A",
+      "pos": [
+        -4.8,
+        0,
+        -75.2
+      ],
+      "rot": 11,
+      "cluster": "cluster_a_cont1",
+      "color": "#8e3226"
+    },
+    {
+      "id": "a_cl2_2",
+      "asset": "Prop_WoodCrate",
+      "zone": "A",
+      "pos": [
+        -4.7,
+        0,
+        -74.1
+      ],
+      "rot": -7,
+      "cluster": "cluster_a_cont1"
+    },
+    {
+      "id": "a_cl2_3",
+      "asset": "Prop_Toolbox",
+      "zone": "A",
+      "pos": [
+        -4.8,
+        0,
+        -73
+      ],
+      "rot": 14,
+      "cluster": "cluster_a_cont1"
+    },
+    {
+      "id": "a_cl3_1",
+      "asset": "Prop_Welder",
+      "zone": "A",
+      "pos": [
+        4.7,
+        0,
+        -61.8
+      ],
+      "rot": -10,
+      "cluster": "cluster_a_cont2"
+    },
+    {
+      "id": "a_cl3_2",
+      "asset": "Prop_PropaneTank",
+      "zone": "A",
+      "pos": [
+        4.8,
+        0,
+        -62.9
+      ],
+      "rot": 6,
+      "cluster": "cluster_a_cont2"
+    },
+    {
+      "id": "a_cl3_3",
+      "asset": "Prop_Barrel",
+      "zone": "A",
+      "pos": [
+        4.7,
+        0,
+        -64
+      ],
+      "rot": -13,
+      "cluster": "cluster_a_cont2",
+      "color": "#34526e"
+    },
+    {
+      "id": "a_cl4_1",
+      "asset": "Prop_WoodCrate",
+      "zone": "A",
+      "pos": [
+        -13,
+        0,
+        -45.2
+      ],
+      "rot": 9,
+      "cluster": "cluster_a_nw"
+    },
+    {
+      "id": "a_cl4_2",
+      "asset": "Prop_Barrel",
+      "zone": "A",
+      "pos": [
+        -13,
+        0,
+        -44
+      ],
+      "rot": -11,
+      "cluster": "cluster_a_nw",
+      "color": "#8a3428"
+    },
+    {
+      "id": "a_cl4_3",
+      "asset": "Prop_Jerrycan",
+      "zone": "A",
+      "pos": [
+        -12.1,
+        0,
+        -44.2
+      ],
+      "rot": 14,
+      "cluster": "cluster_a_nw"
+    },
+    {
+      "id": "a_decal_wt",
+      "asset": "Decal_HazardStripe",
+      "zone": "A",
+      "pos": [
+        0,
+        0,
+        -43.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "a_decal_oil1",
+      "asset": "Decal_OilSpill",
+      "zone": "A",
+      "pos": [
+        -3.4,
+        0,
+        -68
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_1f_cl1_1",
+      "asset": "Prop_Barrel",
+      "zone": "B",
+      "pos": [
+        -5.2,
+        0,
+        -34.8
+      ],
+      "rot": 7,
+      "cluster": "cluster_b1_s",
+      "color": "#3c5a74"
+    },
+    {
+      "id": "b_1f_cl1_2",
+      "asset": "Prop_Toolbox",
+      "zone": "B",
+      "pos": [
+        -4.3,
+        0,
+        -34.8
+      ],
+      "rot": -11,
+      "cluster": "cluster_b1_s"
+    },
+    {
+      "id": "b_1f_cl2_1",
+      "asset": "Prop_WoodCrate",
+      "zone": "B",
+      "pos": [
+        5,
+        0,
+        -25.1
+      ],
+      "rot": 10,
+      "cluster": "cluster_b1_n"
+    },
+    {
+      "id": "b_1f_cl2_2",
+      "asset": "Prop_Jerrycan",
+      "zone": "B",
+      "pos": [
+        4,
+        0,
+        -25.2
+      ],
+      "rot": -8,
+      "cluster": "cluster_b1_n"
+    },
+    {
+      "id": "b_1f_decal_shaft",
+      "asset": "Decal_HazardStripe",
+      "zone": "B",
+      "pos": [
+        0,
+        0,
+        -20
+      ],
+      "rot": 0
+    },
+    {
+      "id": "b_2f_cl1_1",
+      "asset": "Prop_WoodCrate",
+      "zone": "B",
+      "pos": [
+        -13,
+        3.6,
+        -33
+      ],
+      "rot": 12,
+      "cluster": "cluster_b2_mess"
+    },
+    {
+      "id": "b_2f_cl1_2",
+      "asset": "Prop_Barrel",
+      "zone": "B",
+      "pos": [
+        -13,
+        3.6,
+        -31.8
+      ],
+      "rot": -9,
+      "cluster": "cluster_b2_mess",
+      "color": "#4c5e6e"
+    },
+    {
+      "id": "b_2f_cl2_1",
+      "asset": "Prop_Toolbox",
+      "zone": "B",
+      "pos": [
+        13.1,
+        3.6,
+        -39.5
+      ],
+      "rot": 6,
+      "cluster": "cluster_b2_hall"
+    },
+    {
+      "id": "b_2f_cl2_2",
+      "asset": "Prop_PropaneTank",
+      "zone": "B",
+      "pos": [
+        13.1,
+        3.6,
+        -40.6
+      ],
+      "rot": -14,
+      "cluster": "cluster_b2_hall"
+    },
+    {
+      "id": "c_cl1_1",
+      "asset": "Prop_Barrel",
+      "zone": "C",
+      "pos": [
+        -12.9,
+        -6,
+        7
+      ],
+      "rot": 9,
+      "cluster": "cluster_c_w1",
+      "color": "#385874"
+    },
+    {
+      "id": "c_cl1_2",
+      "asset": "Prop_WoodCrate",
+      "zone": "C",
+      "pos": [
+        -12.9,
+        -6,
+        8
+      ],
+      "rot": -12,
+      "cluster": "cluster_c_w1"
+    },
+    {
+      "id": "c_cl1_3",
+      "asset": "Prop_Jerrycan",
+      "zone": "C",
+      "pos": [
+        -12.1,
+        -6,
+        7.2
+      ],
+      "rot": 14,
+      "cluster": "cluster_c_w1"
+    },
+    {
+      "id": "c_cl2_1",
+      "asset": "Prop_Welder",
+      "zone": "C",
+      "pos": [
+        12.9,
+        -6,
+        17.5
+      ],
+      "rot": -8,
+      "cluster": "cluster_c_e1"
+    },
+    {
+      "id": "c_cl2_2",
+      "asset": "Prop_PropaneTank",
+      "zone": "C",
+      "pos": [
+        12.9,
+        -6,
+        18.6
+      ],
+      "rot": 11,
+      "cluster": "cluster_c_e1"
+    },
+    {
+      "id": "c_cl2_3",
+      "asset": "Prop_Toolbox",
+      "zone": "C",
+      "pos": [
+        12.8,
+        -6,
+        16.5
+      ],
+      "rot": -6,
+      "cluster": "cluster_c_e1"
+    },
+    {
+      "id": "c_cl3_1",
+      "asset": "Prop_Barrel",
+      "zone": "C",
+      "pos": [
+        -12.9,
+        -6,
+        31
+      ],
+      "rot": 13,
+      "cluster": "cluster_c_nw",
+      "color": "#8e3226"
+    },
+    {
+      "id": "c_cl3_2",
+      "asset": "Prop_Barrel",
+      "zone": "C",
+      "pos": [
+        -12.9,
+        -6,
+        32
+      ],
+      "rot": -7,
+      "cluster": "cluster_c_nw",
+      "color": "#8e3226"
+    },
+    {
+      "id": "c_cl3_3",
+      "asset": "Prop_WoodCrate",
+      "zone": "C",
+      "pos": [
+        -12.8,
+        -6,
+        33.1
+      ],
+      "rot": 10,
+      "cluster": "cluster_c_nw"
+    },
+    {
+      "id": "c_decal_c3",
+      "asset": "Decal_HazardStripe",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        36.8
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_decal_oil1",
+      "asset": "Decal_OilSpill",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        13
+      ],
+      "rot": 0
+    },
+    {
+      "id": "c_decal_oil2",
+      "asset": "Decal_OilSpill",
+      "zone": "C",
+      "pos": [
+        -5,
+        -6,
+        26
+      ],
+      "rot": 0
+    },
+    {
+      "id": "d_cl1_1",
+      "asset": "Prop_Barrel",
+      "zone": "D",
+      "pos": [
+        -12.8,
+        0,
+        52
+      ],
+      "rot": 11,
+      "cluster": "cluster_d_p1",
+      "color": "#8e3226"
+    },
+    {
+      "id": "d_cl1_2",
+      "asset": "Prop_WoodCrate",
+      "zone": "D",
+      "pos": [
+        -12.8,
+        0,
+        53.2
+      ],
+      "rot": -9,
+      "cluster": "cluster_d_p1"
+    },
+    {
+      "id": "d_cl2_1",
+      "asset": "Prop_Welder",
+      "zone": "D",
+      "pos": [
+        12.8,
+        0,
+        72
+      ],
+      "rot": -12,
+      "cluster": "cluster_d_s1"
+    },
+    {
+      "id": "d_cl2_2",
+      "asset": "Prop_PropaneTank",
+      "zone": "D",
+      "pos": [
+        12.8,
+        0,
+        73.1
+      ],
+      "rot": 8,
+      "cluster": "cluster_d_s1"
+    },
+    {
+      "id": "d_decal_ramp",
+      "asset": "Decal_HazardStripe",
+      "zone": "D",
+      "pos": [
+        0,
+        0,
+        75.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_a_life2",
+      "asset": "Prop_Lifeboat",
+      "zone": "A",
+      "pos": [
+        12.4,
+        0,
+        -88
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_a_c1a",
+      "asset": "Prop_Barrel",
+      "zone": "A",
+      "pos": [
+        -4.8,
+        0,
+        -75.8
+      ],
+      "rot": 8,
+      "color": "#8e2c22",
+      "cluster": "a_c1"
+    },
+    {
+      "id": "aaa_dr_a_c1b",
+      "asset": "Prop_Barrel",
+      "zone": "A",
+      "pos": [
+        -4.7,
+        0,
+        -74.9
+      ],
+      "rot": -11,
+      "color": "#3b5978",
+      "cluster": "a_c1"
+    },
+    {
+      "id": "aaa_dr_a_c1c",
+      "asset": "Prop_Jerrycan",
+      "zone": "A",
+      "pos": [
+        -4.9,
+        0,
+        -76.5
+      ],
+      "rot": 14,
+      "cluster": "a_c1"
+    },
+    {
+      "id": "aaa_dr_a_c2a",
+      "asset": "Prop_Welder",
+      "zone": "A",
+      "pos": [
+        4.8,
+        0,
+        -66.5
+      ],
+      "rot": -12,
+      "cluster": "a_c2"
+    },
+    {
+      "id": "aaa_dr_a_c2b",
+      "asset": "Prop_PropaneTank",
+      "zone": "A",
+      "pos": [
+        4.9,
+        0,
+        -65.6
+      ],
+      "rot": 6,
+      "cluster": "a_c2"
+    },
+    {
+      "id": "aaa_dr_a_c2c",
+      "asset": "Prop_Toolbox",
+      "zone": "A",
+      "pos": [
+        4.7,
+        0,
+        -67.3
+      ],
+      "rot": 15,
+      "cluster": "a_c2"
+    },
+    {
+      "id": "aaa_dr_a_c3a",
+      "asset": "Prop_WoodCrate",
+      "zone": "A",
+      "pos": [
+        -8.4,
+        0,
+        -54.5
+      ],
+      "rot": -9,
+      "cluster": "a_c3"
+    },
+    {
+      "id": "aaa_dr_a_c3b",
+      "asset": "Prop_Barrel",
+      "zone": "A",
+      "pos": [
+        -8.5,
+        0,
+        -53.4
+      ],
+      "rot": 12,
+      "color": "#3b5978",
+      "cluster": "a_c3"
+    },
+    {
+      "id": "aaa_dr_a_dec1",
+      "asset": "Decal_HazardStripe",
+      "zone": "A",
+      "pos": [
+        0,
+        0,
+        -43.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_a_dec2",
+      "asset": "Decal_HazardStripe",
+      "zone": "A",
+      "pos": [
+        10,
+        0,
+        -83.4
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_a_oil1",
+      "asset": "Decal_OilSpill",
+      "zone": "A",
+      "pos": [
+        -1.5,
+        0,
+        -62
+      ],
+      "rot": 15
+    },
+    {
+      "id": "aaa_dr_a_oil2",
+      "asset": "Decal_OilSpill",
+      "zone": "A",
+      "pos": [
+        3.2,
+        0,
+        -48.5
+      ],
+      "rot": -12
+    },
+    {
+      "id": "aaa_dr_b_1a",
+      "asset": "Prop_Toolbox",
+      "zone": "B",
+      "pos": [
+        -5.1,
+        0,
+        -34.2
+      ],
+      "rot": 12,
+      "cluster": "b_c1"
+    },
+    {
+      "id": "aaa_dr_b_1b",
+      "asset": "Prop_Jerrycan",
+      "zone": "B",
+      "pos": [
+        -5,
+        0,
+        -33.4
+      ],
+      "rot": -10,
+      "cluster": "b_c1"
+    },
+    {
+      "id": "aaa_dr_b_2a",
+      "asset": "Prop_WoodCrate",
+      "zone": "B",
+      "pos": [
+        -12.2,
+        3.6,
+        -34.6
+      ],
+      "rot": 8,
+      "cluster": "b_c2"
+    },
+    {
+      "id": "aaa_dr_b_2b",
+      "asset": "Prop_PropaneTank",
+      "zone": "B",
+      "pos": [
+        -11.2,
+        3.6,
+        -34.8
+      ],
+      "rot": -14,
+      "cluster": "b_c2"
+    },
+    {
+      "id": "aaa_dr_b_dec1",
+      "asset": "Decal_HazardStripe",
+      "zone": "B",
+      "pos": [
+        0,
+        0,
+        -20
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_b_dec2",
+      "asset": "Decal_HazardStripe",
+      "zone": "B",
+      "pos": [
+        8,
+        0,
+        -25.4
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_c_1a",
+      "asset": "Prop_Barrel",
+      "zone": "C",
+      "pos": [
+        -4.6,
+        -6,
+        5.5
+      ],
+      "rot": 9,
+      "color": "#8e2c22",
+      "cluster": "c_c1"
+    },
+    {
+      "id": "aaa_dr_c_1b",
+      "asset": "Prop_Barrel",
+      "zone": "C",
+      "pos": [
+        -4.7,
+        -6,
+        6.3
+      ],
+      "rot": -13,
+      "color": "#3b5978",
+      "cluster": "c_c1"
+    },
+    {
+      "id": "aaa_dr_c_2a",
+      "asset": "Prop_Welder",
+      "zone": "C",
+      "pos": [
+        4.8,
+        -6,
+        17.2
+      ],
+      "rot": 11,
+      "cluster": "c_c2"
+    },
+    {
+      "id": "aaa_dr_c_2b",
+      "asset": "Prop_PropaneTank",
+      "zone": "C",
+      "pos": [
+        4.9,
+        -6,
+        18.1
+      ],
+      "rot": -8,
+      "cluster": "c_c2"
+    },
+    {
+      "id": "aaa_dr_c_2c",
+      "asset": "Prop_Toolbox",
+      "zone": "C",
+      "pos": [
+        4.6,
+        -6,
+        16.4
+      ],
+      "rot": 14,
+      "cluster": "c_c2"
+    },
+    {
+      "id": "aaa_dr_c_3a",
+      "asset": "Prop_WoodCrate",
+      "zone": "C",
+      "pos": [
+        -4.6,
+        -6,
+        29.8
+      ],
+      "rot": -7,
+      "cluster": "c_c3"
+    },
+    {
+      "id": "aaa_dr_c_3b",
+      "asset": "Prop_Jerrycan",
+      "zone": "C",
+      "pos": [
+        -4.5,
+        -6,
+        30.7
+      ],
+      "rot": 12,
+      "cluster": "c_c3"
+    },
+    {
+      "id": "aaa_dr_c_dec1",
+      "asset": "Decal_HazardStripe",
+      "zone": "C",
+      "pos": [
+        0,
+        -6,
+        37.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_c_dec2",
+      "asset": "Decal_HazardStripe",
+      "zone": "C",
+      "pos": [
+        12,
+        -6,
+        29.6
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_c_oil1",
+      "asset": "Decal_OilSpill",
+      "zone": "C",
+      "pos": [
+        0.4,
+        -6,
+        14.2
+      ],
+      "rot": 10
+    },
+    {
+      "id": "aaa_dr_d_1a",
+      "asset": "Prop_Barrel",
+      "zone": "D",
+      "pos": [
+        -4.8,
+        0,
+        56.2
+      ],
+      "rot": 10,
+      "color": "#8e2c22",
+      "cluster": "d_c1"
+    },
+    {
+      "id": "aaa_dr_d_1b",
+      "asset": "Prop_WoodCrate",
+      "zone": "D",
+      "pos": [
+        -4.8,
+        0,
+        57.2
+      ],
+      "rot": -12,
+      "cluster": "d_c1"
+    },
+    {
+      "id": "aaa_dr_d_dec1",
+      "asset": "Decal_HazardStripe",
+      "zone": "D",
+      "pos": [
+        0,
+        0,
+        75.8
+      ],
+      "rot": 0
+    },
+    {
+      "id": "aaa_dr_d_dec2",
+      "asset": "Decal_HazardStripe",
+      "zone": "D",
+      "pos": [
+        0,
+        2,
+        84.4
+      ],
+      "rot": 0
+    }
+  ],
+  "lighting": [
+    {
+      "id": "l_a_cool1",
+      "asset": "Light_Cool",
+      "zone": "A",
+      "pos": [
+        -13,
+        5.2,
+        -84
+      ],
+      "rot": 0,
+      "intensity": 14,
+      "distance": 28,
+      "note": "Stern port stanchion cool ambient"
+    },
+    {
+      "id": "l_a_cool2",
+      "asset": "Light_Cool",
+      "zone": "A",
+      "pos": [
+        13,
+        5.2,
+        -74
+      ],
+      "rot": 0,
+      "intensity": 14,
+      "distance": 28,
+      "note": "Stern stbd stanchion cool ambient"
+    },
+    {
+      "id": "l_a_cool3",
+      "asset": "Light_Cool",
+      "zone": "A",
+      "pos": [
+        0,
+        7.6,
+        -62
+      ],
+      "rot": 0,
+      "intensity": 16,
+      "distance": 30,
+      "note": "Gantry arch center cool ambient"
+    },
+    {
+      "id": "l_a_warm_stair",
+      "asset": "Light_Warm",
+      "zone": "A",
+      "pos": [
+        11.2,
+        4.4,
+        -77
+      ],
+      "rot": 0,
+      "intensity": 20,
+      "distance": 16,
+      "note": "Starboard gantry stair warm guide"
+    },
+    {
+      "id": "l_a_warm_wt",
+      "asset": "Light_Warm",
+      "zone": "A",
+      "pos": [
+        0,
+        3.1,
+        -42.55
+      ],
+      "rot": 0,
+      "intensity": 28,
+      "distance": 20,
+      "note": "Watertight door primary warm tungsten beacon"
+    },
+    {
+      "id": "l_a_exit_wt",
+      "asset": "Exit_Sign",
+      "zone": "A",
+      "pos": [
+        0,
+        2.75,
+        -42.3
+      ],
+      "rot": 0,
+      "intensity": 10,
+      "distance": 10,
+      "note": "Superstructure entrance sign"
+    },
+    {
+      "id": "l_b1_cool_w",
+      "asset": "Light_Cool",
+      "zone": "B",
+      "pos": [
+        -8,
+        3.2,
+        -30
+      ],
+      "rot": 0,
+      "intensity": 9,
+      "distance": 16,
+      "note": "1F port loop cool fill"
+    },
+    {
+      "id": "l_b1_cool_e",
+      "asset": "Light_Cool",
+      "zone": "B",
+      "pos": [
+        8,
+        3.2,
+        -30
+      ],
+      "rot": 0,
+      "intensity": 9,
+      "distance": 16,
+      "note": "1F stbd loop cool fill"
+    },
+    {
+      "id": "l_b1_warm_stair",
+      "asset": "Light_Warm",
+      "zone": "B",
+      "pos": [
+        8,
+        3.2,
+        -25
+      ],
+      "rot": 0,
+      "intensity": 22,
+      "distance": 14,
+      "note": "1F->2F stair warm beacon"
+    },
+    {
+      "id": "l_b1_warm_shaft",
+      "asset": "Light_Warm",
+      "zone": "B",
+      "pos": [
+        0,
+        3.2,
+        -20
+      ],
+      "rot": 0,
+      "intensity": 24,
+      "distance": 14,
+      "note": "1F vertical cargo shaft warm beacon"
+    },
+    {
+      "id": "l_b1_exit_stair",
+      "asset": "Exit_Sign",
+      "zone": "B",
+      "pos": [
+        8,
+        2.75,
+        -18.4
+      ],
+      "rot": 180,
+      "intensity": 10,
+      "distance": 10,
+      "note": "1F stairwell exit sign"
+    },
+    {
+      "id": "l_b2_cool_mess",
+      "asset": "Light_Cool",
+      "zone": "B",
+      "pos": [
+        -8,
+        6.8,
+        -30
+      ],
+      "rot": 0,
+      "intensity": 10,
+      "distance": 18,
+      "note": "2F mess hall cool fill"
+    },
+    {
+      "id": "l_b2_warm_breach",
+      "asset": "Light_Warm",
+      "zone": "B",
+      "pos": [
+        4,
+        6.8,
+        -32
+      ],
+      "rot": 0,
+      "intensity": 24,
+      "distance": 15,
+      "note": "2F mess hall east breach warm guide"
+    },
+    {
+      "id": "l_b2_warm_flank",
+      "asset": "Light_Warm",
+      "zone": "B",
+      "pos": [
+        -4,
+        6.8,
+        -24
+      ],
+      "rot": 0,
+      "intensity": 20,
+      "distance": 14,
+      "note": "2F mess hall north flank door warm guide"
+    },
+    {
+      "id": "l_b2_warm_stair3",
+      "asset": "Light_Warm",
+      "zone": "B",
+      "pos": [
+        11,
+        6.8,
+        -35
+      ],
+      "rot": 0,
+      "intensity": 20,
+      "distance": 14,
+      "note": "2F->3F bridge stair warm guide"
+    },
+    {
+      "id": "l_b3_cool",
+      "asset": "Light_Cool",
+      "zone": "B",
+      "pos": [
+        -5,
+        10.3,
+        -26
+      ],
+      "rot": 0,
+      "intensity": 10,
+      "distance": 20,
+      "note": "3F bridge cool fill"
+    },
+    {
+      "id": "l_b3_warm_intel",
+      "asset": "Light_Warm",
+      "zone": "B",
+      "pos": [
+        0,
+        10.3,
+        -22
+      ],
+      "rot": 0,
+      "intensity": 22,
+      "distance": 14,
+      "note": "3F bridge intel chart table warm beacon"
+    },
+    {
+      "id": "l_c_cool1",
+      "asset": "Light_Cool",
+      "zone": "C",
+      "pos": [
+        0,
+        6.4,
+        0
+      ],
+      "rot": 0,
+      "intensity": 36,
+      "distance": 42,
+      "note": "Hold south cool ambient"
+    },
+    {
+      "id": "l_c_cool2",
+      "asset": "Light_Cool",
+      "zone": "C",
+      "pos": [
+        0,
+        6.4,
+        16
+      ],
+      "rot": 0,
+      "intensity": 38,
+      "distance": 44,
+      "note": "Hold center cool ambient"
+    },
+    {
+      "id": "l_c_cool3",
+      "asset": "Light_Cool",
+      "zone": "C",
+      "pos": [
+        0,
+        6.4,
+        30
+      ],
+      "rot": 0,
+      "intensity": 36,
+      "distance": 42,
+      "note": "Hold north cool ambient"
+    },
+    {
+      "id": "l_c_warm_stw",
+      "asset": "Light_Warm",
+      "zone": "C",
+      "pos": [
+        -8,
+        -0.22,
+        -14.2
+      ],
+      "rot": 0,
+      "intensity": 24,
+      "distance": 18,
+      "note": "Port descending stair warm guide"
+    },
+    {
+      "id": "l_c_warm_ste",
+      "asset": "Light_Warm",
+      "zone": "C",
+      "pos": [
+        8,
+        -0.22,
+        -14.2
+      ],
+      "rot": 0,
+      "intensity": 24,
+      "distance": 18,
+      "note": "Stbd descending stair warm guide"
+    },
+    {
+      "id": "l_c_warm_c3",
+      "asset": "Light_Warm",
+      "zone": "C",
+      "pos": [
+        0,
+        -2,
+        38
+      ],
+      "rot": 0,
+      "intensity": 38,
+      "distance": 26,
+      "note": "Objective Container #3 high-contrast warm focal beacon"
+    },
+    {
+      "id": "l_c_exit_bot",
+      "asset": "Exit_Sign",
+      "zone": "C",
+      "pos": [
+        12,
+        -3.2,
+        30
+      ],
+      "rot": 0,
+      "intensity": 18,
+      "distance": 18,
+      "note": "Emergency escape stair bottom green exit"
+    },
+    {
+      "id": "l_c_exit_top",
+      "asset": "Exit_Sign",
+      "zone": "C",
+      "pos": [
+        12,
+        2.75,
+        45.5
+      ],
+      "rot": 180,
+      "intensity": 18,
+      "distance": 18,
+      "note": "Emergency escape bulkhead exit sign"
+    },
+    {
+      "id": "l_d_cool1",
+      "asset": "Light_Cool",
+      "zone": "D",
+      "pos": [
+        -13,
+        5.2,
+        58
+      ],
+      "rot": 0,
+      "intensity": 15,
+      "distance": 30,
+      "note": "Forward deck port stanchion cool ambient"
+    },
+    {
+      "id": "l_d_cool2",
+      "asset": "Light_Cool",
+      "zone": "D",
+      "pos": [
+        13,
+        5.2,
+        72
+      ],
+      "rot": 0,
+      "intensity": 15,
+      "distance": 30,
+      "note": "Bow approach stbd stanchion cool ambient"
+    },
+    {
+      "id": "l_d_warm_ramp",
+      "asset": "Light_Warm",
+      "zone": "D",
+      "pos": [
+        -3.6,
+        4.2,
+        76
+      ],
+      "rot": 0,
+      "intensity": 26,
+      "distance": 20,
+      "note": "Helipad ramp warm guidance beacon"
+    },
+    {
+      "id": "l_d_exit_bow",
+      "asset": "Exit_Sign",
+      "zone": "D",
+      "pos": [
+        -3.4,
+        2.55,
+        84.4
+      ],
+      "rot": 0,
+      "intensity": 18,
+      "distance": 18,
+      "note": "Bow Helipad evacuation marker"
+    },
+    {
+      "id": "aaa_lt_a_overpass",
+      "asset": "Light_Warm",
+      "zone": "A",
+      "pos": [
+        0,
+        6.85,
+        -62
+      ],
+      "rot": 0,
+      "intensity": 22,
+      "distance": 22
+    },
+    {
+      "id": "aaa_lt_a_port",
+      "asset": "Light_Warm",
+      "zone": "A",
+      "pos": [
+        -12.2,
+        4.1,
+        -62
+      ],
+      "rot": 0,
+      "intensity": 16,
+      "distance": 18
+    },
+    {
+      "id": "aaa_lt_b_galley",
+      "asset": "Light_Warm",
+      "zone": "B",
+      "pos": [
+        -6.5,
+        6.7,
+        -32.5
+      ],
+      "rot": 0,
+      "intensity": 18,
+      "distance": 16
+    },
+    {
+      "id": "aaa_lt_b_bridge",
+      "asset": "Light_Cool",
+      "zone": "B",
+      "pos": [
+        0,
+        10.3,
+        -21.5
+      ],
+      "rot": 0,
+      "intensity": 16,
+      "distance": 20
+    },
+    {
+      "id": "aaa_lt_c_crane",
+      "asset": "Light_Warm",
+      "zone": "C",
+      "pos": [
+        0,
+        3.8,
+        14
+      ],
+      "rot": 0,
+      "intensity": 28,
+      "distance": 28
+    },
+    {
+      "id": "aaa_lt_c_c3hero",
+      "asset": "Light_Cool",
+      "zone": "C",
+      "pos": [
+        0,
+        -3.5,
+        40.5
+      ],
+      "rot": 0,
+      "intensity": 30,
+      "distance": 18
+    },
+    {
+      "id": "aaa_lt_d_bowramp",
+      "asset": "Light_Warm",
+      "zone": "D",
+      "pos": [
+        3.6,
+        4.2,
+        80
+      ],
+      "rot": 0,
+      "intensity": 24,
+      "distance": 24
+    }
+  ]
+}

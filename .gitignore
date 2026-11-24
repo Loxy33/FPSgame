@@ -1,0 +1,12 @@
+node_modules
+dist
+release
+desktop/bin
+desktop/obj
+desktop/game_dist.zip
+*.log
+
+assets-src
+.tmp
+.workbuddy
+.wbapp_*.genie

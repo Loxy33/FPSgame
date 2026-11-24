@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>《赤沙行动》全战区原声配乐试听台 · OST AUDITION</title>
+  <style>
+    :root {
+      --bg: #080c12;
+      --card: rgba(18, 25, 34, 0.86);
+      --border: rgba(140, 175, 210, 0.18);
+      --text: #e8eef4;
+      --muted: #8ea0b2;
+      --gold: #eab04a;
+      --cyan: #38d8ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(circle at 20% 10%, #132234 0%, #080c12 58%, #05070a 100%);
+      color: var(--text);
+      padding: 32px 24px 56px;
+    }
+    .wrap { max-width: 1040px; margin: 0 auto; }
+    header {
+      display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;
+      gap: 16px; padding-bottom: 20px; border-bottom: 1px solid var(--border); margin-bottom: 24px;
+    }
+    .kicker { font-size: 11px; letter-spacing: 0.24em; color: var(--gold); text-transform: uppercase; margin-bottom: 6px; }
+    h1 { font-size: 30px; letter-spacing: 0.06em; font-weight: 800; }
+    .sub { font-size: 13px; color: var(--muted); margin-top: 6px; }
+    .viz-box {
+      background: rgba(10, 15, 22, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin-bottom: 22px;
+      box-shadow: 0 18px 42px rgba(0,0,0,0.45);
+    }
+    .now-row {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 12px;
+    }
+    .now-title { font-size: 18px; font-weight: 700; color: #fff; }
+    .now-meta { font-size: 12px; color: var(--cyan); margin-top: 2px; }
+    .vol-wrap { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); }
+    canvas#viz { width: 100%; height: 92px; display: block; border-radius: 6px; background: rgba(6, 10, 16, 0.85); }
+    .prog-row {
+      display: flex; align-items: center; gap: 12px; margin-top: 12px; font-size: 12px; color: var(--muted); font-family: Consolas, monospace;
+    }
+    input[type="range"] { accent-color: var(--cyan); cursor: pointer; }
+    #seek { flex: 1; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px;
+      display: flex; flex-direction: column; gap: 10px;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .card:hover { border-color: rgba(56, 216, 255, 0.5); transform: translateY(-2px); }
+    .card.active {
+      border-color: var(--accent, var(--cyan));
+      box-shadow: 0 0 24px rgba(56, 216, 255, 0.22);
+      background: rgba(20, 32, 46, 0.94);
+    }
+    .card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .tag {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.1em; padding: 3px 8px; border-radius: 4px;
+      background: rgba(255,255,255,0.08); color: var(--accent, var(--gold));
+    }
+    .play-btn {
+      width: 38px; height: 38px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.06); color: #fff; font-size: 14px; cursor: pointer;
+      display: grid; place-items: center; flex-shrink: 0; transition: background 0.15s;
+    }
+    .card.active .play-btn { background: var(--accent, var(--cyan)); color: #051018; border-color: transparent; font-weight: 800; }
+    .map-name { font-size: 17px; font-weight: 800; }
+    .track-name { font-size: 13px; color: var(--accent, var(--cyan)); font-weight: 600; }
+    .desc { font-size: 12.5px; color: var(--muted); line-height: 1.55; flex: 1; }
+    .foot-note {
+      margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--border);
+      font-size: 12px; color: var(--muted); line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="kicker">OPERATION RED SAND // ORIGINAL SOUNDTRACK AUDITION STUDIO</div>
+        <h1>《赤沙行动》全战区独立原声配乐试听台</h1>
+        <div class="sub">终版 8 首全战区与三大 BOSS 独立原声配乐 · 全部为专业管弦 / 混合交响录制 · 按地图与 BOSS 一对一动态切曲</div>
+      </div>
+    </header>
+
+    <div class="viz-box">
+      <div class="now-row">
+        <div>
+          <div class="now-title" id="now-title">点击下方任意战区卡片开始试听</div>
+          <div class="now-meta" id="now-meta">REAL-TIME SPECTRUM ANALYZER · 44.1 kHz STEREO</div>
+        </div>
+        <div class="vol-wrap">
+          <span>音量</span>
+          <input id="vol" type="range" min="0" max="1" step="0.01" value="0.8" />
+        </div>
+      </div>
+      <canvas id="viz" width="980" height="92"></canvas>
+      <div class="prog-row">
+        <span id="t-cur">0:00</span>
+        <input id="seek" type="range" min="0" max="1000" value="0" />
+        <span id="t-dur">0:00</span>
+      </div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <div class="foot-note">
+      <b>音乐署名与授权说明（CC BY 4.0）</b>：全部 8 首全战区及三大 BOSS 专属原声配乐均选自知名电影管弦配乐作曲家 <b>Scott Buckley</b>（scottbuckley.com.au）官方公开发行的 CC BY 4.0 专业管弦/混合动作作品，已直接接入游戏按需加载与一对一 BOSS 战动态切曲系统。
+    </div>
+  </div>
+
+  <script>
+    const TRACKS = [
+      {
+        id: 'menu',
+        tag: 'MAIN MENU · 主菜单终版',
+        map: '主菜单 · 泰山号指挥大厅',
+        title: '《The Long Dark》 — Scott Buckley',
+        accent: '#38d8ff',
+        url: '/assets/audio/menu_bgm/01.mp3?v=longdark',
+        desc: '延续原版冷雨海夜的孤寂小调钢琴基因，升级为电影配乐级独奏提琴与深厚弦乐群，氛围肃穆而极富代入感。'
+      },
+      {
+        id: 'training',
+        tag: 'MAP 00 · 战术训练营',
+        map: '铁砧基地 · 战术训练营',
+        title: '《Sentinel》 — Scott Buckley',
+        accent: '#a2b8cc',
+        url: '/assets/audio/bgm_training/01.mp3',
+        desc: '沉稳干练的特种作战整备配乐：紧凑的低频脉动与克制铜管线条，专为实弹打靶与 CQB 突入屋备战节奏独立配置。'
+      },
+      {
+        id: 'taishan',
+        tag: 'MISSION 01 · 第一关常规战',
+        map: '深海利刃 · 泰山号远洋货轮',
+        title: '《Undertow》 — Scott Buckley',
+        accent: '#4cc8f5',
+        url: '/assets/audio/bgm_taishan/01.mp3',
+        desc: '深海暗涌惊悚动作管弦乐：暴雨夜海上渗透的压迫感、紧绷弦乐脉冲与破门突击爆发力，与黑夜夺船氛围高度融合。'
+      },
+      {
+        id: 'oilfield',
+        tag: 'MISSION 02 · 第二关常规战',
+        map: '戈壁炼狱 · 喀拉干达 7 号油田',
+        title: '《Goliath》 — Scott Buckley',
+        accent: '#f5a442',
+        url: '/assets/audio/bgm_oilfield/01.mp3?v=goliath',
+        desc: '高燃现代军事突击混合交响：节奏合成打击乐 + 粗粝厚重铜管 + 疾驰弦乐齐奏，开场即具强攻压迫感，呼应戈壁油田与地下超算推进。'
+      },
+      {
+        id: 'hadir',
+        tag: 'SURVIVAL · 哈迪尔防线常规战',
+        map: '哈迪尔防线 · 总部支援模式',
+        title: '《The Fury》 — Scott Buckley',
+        accent: '#ff5e46',
+        url: '/assets/audio/bgm_hadir/01.mp3',
+        desc: '史诗全面战争交响配乐：奔腾弦乐群、厚重圆号与密集战争打击乐，撑起波次死守与海克斯火力全开的激燃战场节奏。'
+      },
+      {
+        id: 'boss_kronos',
+        tag: 'BOSS 01 · 克洛诺斯专属',
+        map: '泰山号 BOSS · 重装巨兽「克洛诺斯」',
+        title: '《Juggernaut》 — Scott Buckley',
+        accent: '#ff4238',
+        url: '/assets/audio/bgm_boss_kronos/01.mp3',
+        desc: '重工业钢铁推进风格：暗黑低音弦乐锯齿脉冲与重锤战鼓，精准匹配克洛诺斯的四管加特林、集束迫击炮与船艏震荡脉冲。'
+      },
+      {
+        id: 'boss_viper',
+        tag: 'BOSS 02 · 毒蛇专属',
+        map: '油田超算 BOSS · 赛博幽灵「毒蛇」',
+        title: '《Simulacra》 — Scott Buckley',
+        accent: '#b868ff',
+        url: '/assets/audio/bgm_boss_viper/01.mp3',
+        desc: '高燃混合交响电音摇滚：高速合成器琶音 + 失真电吉他 + 凌厉铜管，精准匹配厄普西隆地下超算的电磁轨道炮与相位瞬移刺客。'
+      },
+      {
+        id: 'boss_tyrant',
+        tag: 'BOSS 03 · 赤沙暴君专属',
+        map: '哈迪尔 BOSS · 烈焰霸主「赤沙暴君」',
+        title: '《Terminus》 — Scott Buckley',
+        accent: '#ffb824',
+        url: '/assets/audio/bgm_boss_tyrant/01.mp3',
+        desc: '全编管弦 + 重型战鼓 + 电子脉冲 + 宏大人声合唱，史诗终局级压迫感，精准匹配焦土火海轰炸与太阳神高能爆破炮决战。'
+      }
+    ];
+
+    const audio = new Audio();
+    audio.crossOrigin = 'anonymous';
+    audio.volume = 0.8;
+    let actx = null, analyser = null, srcNode = null, dataArr = null;
+    let curId = null;
+
+    const fmt = (s) => {
+      if (!isFinite(s) || s < 0) return '0:00';
+      const m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return `${m}:${sec < 10 ? '0' : ''}${sec}`;
+    };
+
+    const grid = document.getElementById('grid');
+    function renderCards() {
+      grid.innerHTML = TRACKS.map((t) => {
+        const isCur = curId === t.id;
+        const playing = isCur && !audio.paused;
+        return `
+          <div class="card${isCur ? ' active' : ''}" data-id="${t.id}" style="--accent:${t.accent}">
+            <div class="card-top">
+              <span class="tag">${t.tag}</span>
+              <button class="play-btn" aria-label="播放">${playing ? '❚❚' : '▶'}</button>
+            </div>
+            <div class="map-name">${t.map}</div>
+            <div class="track-name">${t.title}</div>
+            <div class="desc">${t.desc}</div>
+          </div>`;
+      }).join('');
+      grid.querySelectorAll('.card').forEach((el) => {
+        el.addEventListener('click', () => toggleTrack(el.dataset.id));
+      });
+    }
+
+    function ensureAnalyser() {
+      if (actx) return;
+      actx = new (window.AudioContext || window.webkitAudioContext)();
+      analyser = actx.createAnalyser();
+      analyser.fftSize = 128;
+      dataArr = new Uint8Array(analyser.frequencyBinCount);
+      srcNode = actx.createMediaElementSource(audio);
+      srcNode.connect(analyser);
+      analyser.connect(actx.destination);
+      drawViz();
+    }
+
+    function toggleTrack(id) {
+      ensureAnalyser();
+      if (actx.state === 'suspended') actx.resume();
+      const t = TRACKS.find((x) => x.id === id);
+      if (!t) return;
+      if (curId === id) {
+        if (audio.paused) audio.play();
+        else audio.pause();
+      } else {
+        curId = id;
+        audio.src = t.url;
+        audio.currentTime = 0;
+        audio.play();
+        document.getElementById('now-title').textContent = `${t.map} · ${t.title}`;
+        document.getElementById('now-meta').textContent = `${t.tag}  //  ${t.url}`;
+      }
+      renderCards();
+    }
+
+    const seek = document.getElementById('seek');
+    let seeking = false;
+    seek.addEventListener('input', () => { seeking = true; });
+    seek.addEventListener('change', () => {
+      if (isFinite(audio.duration)) audio.currentTime = (seek.value / 1000) * audio.duration;
+      seeking = false;
+    });
+    document.getElementById('vol').addEventListener('input', (e) => { audio.volume = parseFloat(e.target.value); });
+    audio.addEventListener('timeupdate', () => {
+      document.getElementById('t-cur').textContent = fmt(audio.currentTime);
+      document.getElementById('t-dur').textContent = fmt(audio.duration);
+      if (!seeking && isFinite(audio.duration) && audio.duration > 0) {
+        seek.value = Math.round((audio.currentTime / audio.duration) * 1000);
+      }
+    });
+    audio.addEventListener('play', renderCards);
+    audio.addEventListener('pause', renderCards);
+    audio.addEventListener('ended', renderCards);
+
+    const canvas = document.getElementById('viz');
+    const ctx = canvas.getContext('2d');
+    function drawViz() {
+      requestAnimationFrame(drawViz);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      if (!analyser) return;
+      analyser.getByteFrequencyData(dataArr);
+      const t = TRACKS.find((x) => x.id === curId);
+      const col = t ? t.accent : '#38d8ff';
+      const n = dataArr.length;
+      const bw = canvas.width / n;
+      for (let i = 0; i < n; i++) {
+        const v = dataArr[i] / 255;
+        const h = Math.max(2, v * (canvas.height - 10));
+        ctx.fillStyle = col;
+        ctx.globalAlpha = 0.35 + v * 0.65;
+        ctx.fillRect(i * bw + 2, canvas.height - h, Math.max(2, bw - 4), h);
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    renderCards();
+  </script>
+</body>
+</html>
